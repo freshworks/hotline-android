@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    style="@style/hotlineCategoryListItemStyle">
+
+    <ImageView
+        android:id="@+id/hotline_category_icon"
+        android:layout_width="@dimen/hotline_category_icon_size"
+        android:layout_height="@dimen/hotline_category_icon_size"
+        android:layout_gravity="center"
+        android:padding="@dimen/hotline_category_icon_padding"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/hotline_category_icon_alt_text"
+        android:layout_width="@dimen/hotline_category_icon_alt_view_size"
+        android:layout_height="@dimen/hotline_category_icon_alt_view_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/hotline_category_icon_padding"
+        android:background="@drawable/hotline_category_alt_text_bg"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/hotline_category_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAppearance="?attr/hotlineCategoryNameTextAppearance"
+        tools:text="Category Name" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="label_faq">Your users can view all frequently asked questions before reaching out to you</string>
+    <string name="label_btn_faq">FAQs</string>
+    <string name="label_conversations">Your users can message you in real time</string>
+    <string name="label_btn_conversations">Conversations</string>
+</resources>

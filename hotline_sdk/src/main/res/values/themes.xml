@@ -1,0 +1,63 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Hotline.SelectedTheme" parent="@style/Theme.Hotline.Light.DarkActionBar" />
+
+    <style name="Theme.Hotline" parent="@style/Theme.AppCompat">
+    </style>
+
+    <style name="Theme.Hotline.Light" parent="@style/Theme.AppCompat.Light">
+
+    </style>
+
+    <style name="Theme.Hotline.Light.DarkActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Action Icons -->
+        <item name="hotlinePlayIcon">@drawable/hotline_ic_play</item>
+        <item name="hotlineStopIcon">@drawable/hotline_ic_stop</item>
+        <item name="hotlineSendIcon">@drawable/hotline_ic_send</item>
+        <item name="hotlineCancelIcon">@drawable/hotline_ic_cancel</item>
+        <item name="hotlineAttachIcon">@drawable/hotline_ic_attach</item>
+        <item name="hotlineRecordIcon">@drawable/hotline_ic_record</item>
+
+        <!-- Menu Icons -->
+        <item name="hotlineSearchIcon">@drawable/hotline_ic_action_search_dark</item>
+        <item name="hotlineSpeakerIcon">@drawable/hotline_ic_speaker</item>
+        <item name="hotlineEarpieceIcon">@drawable/hotline_ic_earpiece</item>
+        <item name="hotlineContactUsIcon">@drawable/hotline_ic_action_contact_us</item>
+
+        <!-- Misc Icons-->
+        <item name="hotlineAvatarIcon">@null</item>
+        <item name="hotlineUnreadCountIcon">@drawable/hotline_ic_unread_count</item>
+
+        <!-- Chat Bubbles -->
+        <item name="hotlineChatBubbleLeft">@drawable/hotline_chat_bubble_left</item>
+        <item name="hotlineChatBubbleRight">@drawable/hotline_chat_bubble_right</item>
+
+        <!-- Misc -->
+        <item name="hotlineVoiceVisualizer">@drawable/hotline_voice_visualizer_drawable</item>
+        <item name="hotlineVoiceMessageSeekbar">@drawable/hotline_voice_message_seekbar</item>
+        <item name="hotlineVoiceMessageSeekbarThumb">@drawable/hotline_voice_message_seekbar_thumb</item>
+
+        <!-- Text Appearance Styles -->
+        <item name="hotlineContactUsTextAppearance">@style/hotlineContactUsTextAppearance</item>
+        <item name="hotlineArticleTitleTextAppearance">@style/hotlineArticleTitleTextAppearance</item>
+        <item name="hotlineArticleVotingPromptTextAppearance">@style/hotlineArticleVotingPromptTextAppearance</item>
+        <item name="hotlineArticleListEmptyWarningTextAppearance">@style/hotlineArticleListEmptyWarningTextAppearance</item>
+        <item name="hotlineCategoryNameTextAppearance">@style/hotlineCategoryNameTextAppearance</item>
+        <item name="hotlineCategoryDescriptionTextAppearance">@style/hotlineCategoryDescriptionTextAppearance</item>
+        <item name="hotlineCategoryListEmptyWarningTextAppearance">@style/hotlineCategoryListEmptyWarningTextAppearance</item>
+        <item name="hotlineChannelNameTextAppearance">@style/hotlineChannelNameTextAppearance</item>
+        <item name="hotlineChannelDescriptionTextAppearance">@style/hotlineChannelDescriptionTextAppearance</item>
+        <item name="hotlineChannelLastUpdatedTextAppearance">@style/hotlineChannelLastUpdatedTextAppearance</item>
+        <item name="hotlineChannelUnreadCountTextAppearance">@style/hotlineChannelUnreadCountTextAppearance</item>
+        <item name="hotlineAgentNameTextAppearance">@style/hotlineAgentNameTextAppearance</item>
+        <item name="hotlineUserMessageTextAppearance">@style/hotlineUserMessageTextAppearance</item>
+        <item name="hotlineAgentMessageTextAppearance">@style/hotlineAgentMessageTextAppearance</item>
+        <item name="hotlineUserMessageTimeTextAppearance">@style/hotlineUserMessageTimeTextAppearance</item>
+        <item name="hotlineAgentMessageTimeTextAppearance">@style/hotlineAgentMessageTimeTextAppearance</item>
+        <item name="hotlineMessageDeepLinkTextAppearance">@style/hotlineMessageDeepLinkTextAppearance</item>
+        <item name="hotlineVoiceMessageDurationTextAppearance">@style/hotlineVoiceMessageDurationTextAppearance</item>
+
+    </style>
+
+</resources>

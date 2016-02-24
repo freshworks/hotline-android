@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- UI Customization Config Attrs -->
+    <attr name="hotlineDisplayCategoryAsGrid" format="boolean" />
+
+    <!-- Action Icons -->
+    <attr name="hotlinePlayIcon" format="reference" />
+    <attr name="hotlineStopIcon" format="reference" />
+    <attr name="hotlineSendIcon" format="reference" />
+    <attr name="hotlineCancelIcon" format="reference" />
+    <attr name="hotlineAttachIcon" format="reference" />
+    <attr name="hotlineRecordIcon" format="reference" />
+
+    <!-- Menu Icons -->
+    <attr name="hotlineSearchIcon" format="reference" />
+    <attr name="hotlineSpeakerIcon" format="reference" />
+    <attr name="hotlineEarpieceIcon" format="reference" />
+    <attr name="hotlineContactUsIcon" format="reference" />
+
+    <!-- Misc Icons-->
+    <attr name="hotlineAvatarIcon" format="reference" />
+    <attr name="hotlineUnreadCountIcon" format="reference" />
+
+    <!-- Chat Bubbles -->
+    <attr name="hotlineChatBubbleLeft" format="reference" />
+    <attr name="hotlineChatBubbleRight" format="reference" />
+
+    <!-- Misc -->
+    <attr name="hotlineVoiceVisualizer" format="reference" />
+    <attr name="hotlineVoiceMessageSeekbar" format="reference" />
+    <attr name="hotlineVoiceMessageSeekbarThumb" format="reference" />
+
+    <!-- Text Appearance Customizations - Common -->
+    <attr name="hotlineContactUsTextAppearance" format="reference" />
+
+    <!-- Text Appearance Customizations - Solution Article -->
+    <attr name="hotlineArticleTitleTextAppearance" format="reference" />
+    <attr name="hotlineArticleVotingPromptTextAppearance" format="reference" />
+    <attr name="hotlineArticleListEmptyWarningTextAppearance" format="reference" />
+
+    <!-- Text Appearance Customizations - Solution Article Category -->
+    <attr name="hotlineCategoryNameTextAppearance" format="reference" />
+    <attr name="hotlineCategoryDescriptionTextAppearance" format="reference" />
+    <attr name="hotlineCategoryListEmptyWarningTextAppearance" format="reference" />
+
+    <!-- Text Appearance Customizations - Message Channels -->
+    <attr name="hotlineChannelNameTextAppearance" format="reference" />
+    <attr name="hotlineChannelDescriptionTextAppearance" format="reference" />
+    <attr name="hotlineChannelLastUpdatedTextAppearance" format="reference" />
+    <attr name="hotlineChannelUnreadCountTextAppearance" format="reference" />
+
+    <!-- Text Appearance Customizations - Message List -->
+    <attr name="hotlineAgentNameTextAppearance" format="reference" />
+    <attr name="hotlineUserMessageTextAppearance" format="reference" />
+    <attr name="hotlineAgentMessageTextAppearance" format="reference" />
+    <attr name="hotlineUserMessageTimeTextAppearance" format="reference" />
+    <attr name="hotlineAgentMessageTimeTextAppearance" format="reference" />
+    <attr name="hotlineMessageDeepLinkTextAppearance" format="reference" />
+    <attr name="hotlineVoiceMessageDurationTextAppearance" format="reference" />
+
+</resources>

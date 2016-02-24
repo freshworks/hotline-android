@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/hotline_message_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/hotline_background_color">
+
+    <ImageView
+        android:id="@+id/hotline_message_avatar"
+        android:layout_width="@dimen/hotline_message_avatar_icon_size"
+        android:layout_height="@dimen/hotline_message_avatar_icon_size"
+        android:padding="@dimen/hotline_message_avatar_icon_padding" />
+
+    <RelativeLayout
+        android:id="@+id/hotline_message_message_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/hotline_message_bubble_padding"
+        android:layout_margin="@dimen/hotline_message_bubble_margin"
+        android:layout_toRightOf="@+id/hotline_message_avatar"
+        android:background="?attr/hotlineChatBubbleLeft">
+
+        <TextView
+            android:id="@+id/hotline_message_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/hotline_message_text"
+            android:paddingLeft="4dp"
+            android:paddingTop="4dp"
+            android:singleLine="true"
+            android:text="@string/hotline_label_agent_name"
+            android:textAppearance="?attr/hotlineAgentNameTextAppearance"
+             />
+
+        <TextView
+            android:id="@+id/hotline_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hotline_message_name"
+            android:padding="4dp" />
+
+        <ImageView
+            android:id="@+id/hotline_message_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hotline_message_text"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:maxHeight="200dp"
+            android:maxWidth="300dp"
+            android:padding="8dp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/hotline_message_voice_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hotline_message_image">
+
+            <ImageView
+                android:id="@+id/hotline_message_voice_play_button"
+                android:layout_width="@dimen/hotline_message_voice_play_icon_size"
+                android:layout_height="@dimen/hotline_message_voice_play_icon_size"
+                android:padding="4dp"
+                android:src="?attr/hotlinePlayIcon"
+                android:visibility="gone" />
+
+            <com.demach.konotor.layout.MediaProgressBar
+                android:id="@+id/hotline_message_voice_play_progress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/hotline_message_voice_duration"
+                android:layout_toRightOf="@+id/hotline_message_voice_play_button"
+                android:max="100"
+                android:maxHeight="3dp"
+                android:progressDrawable="?attr/hotlineVoiceMessageSeekbar"
+                android:secondaryProgress="0"
+                android:thumb="?attr/hotlineVoiceMessageSeekbarThumb"
+                android:thumbOffset="9999dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/hotline_message_voice_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="4dp"
+                android:text="@string/hotline_label_duration"
+                android:textAppearance="?attr/hotlineVoiceMessageDurationTextAppearance"
+                android:textColor="@color/hotline_text_color"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/hotline_message_deeplink_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hotline_message_voice_container"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/hotline_chat_bgcolor"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:minWidth="100dp"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:text="@string/hotline_label_deeplink"
+            android:textAppearance="?attr/hotlineMessageDeepLinkTextAppearance"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/hotline_message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/hotline_message_text"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/hotline_message_deeplink_button"
+            android:ellipsize="end"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:singleLine="true"
+            android:text="@string/hotline_label_duration" />
+
+        <ImageView
+            android:id="@+id/hotline_message_upload_status"
+            android:layout_width="@dimen/hotline_message_upload_status_icon_size"
+            android:layout_height="@dimen/hotline_message_upload_status_icon_size"
+            android:layout_alignBottom="@+id/hotline_message_time"
+            android:layout_alignTop="@+id/hotline_message_time"
+            android:layout_toRightOf="@+id/hotline_message_time"
+            android:contentDescription="@string/hotline_content_description_upload_status"
+            android:paddingLeft="@dimen/hotline_message_upload_status_icon_padding"
+            android:src="@drawable/hotline_ic_message_status_pending"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

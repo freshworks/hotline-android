@@ -1,0 +1,90 @@
+<resources>
+
+    <style name="Hotline.TextAppearance" parent="TextAppearance.AppCompat">
+    </style>
+
+    <style name="Hotline.TextAppearance.Small" parent="TextAppearance.AppCompat.Small">
+    </style>
+
+    <style name="Hotline.TextAppearance.Medium" parent="TextAppearance.AppCompat.Medium">
+    </style>
+
+    <style name="Hotline.TextAppearance.Large" parent="TextAppearance.AppCompat.Large">
+    </style>
+
+    <style name="hotlineContactUsTextAppearance" parent="Hotline.TextAppearance.Medium">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="hotlineArticleTitleTextAppearance" parent="Hotline.TextAppearance.Medium"></style>
+
+    <style name="hotlineArticleVotingPromptTextAppearance" parent="Hotline.TextAppearance.Medium"></style>
+
+    <style name="hotlineArticleListEmptyWarningTextAppearance" parent="Hotline.TextAppearance.Medium"></style>
+
+    <style name="hotlineCategoryNameTextAppearance" parent="Hotline.TextAppearance.Medium"></style>
+
+    <style name="hotlineCategoryDescriptionTextAppearance" parent="Hotline.TextAppearance"></style>
+
+    <style name="hotlineCategoryListEmptyWarningTextAppearance" parent="Hotline.TextAppearance.Medium"></style>
+
+    <style name="hotlineChannelNameTextAppearance" parent="Hotline.TextAppearance.Large">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="hotlineChannelDescriptionTextAppearance" parent="Hotline.TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="hotlineChannelLastUpdatedTextAppearance" parent="Hotline.TextAppearance.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="hotlineChannelUnreadCountTextAppearance" parent="Hotline.TextAppearance.Medium"></style>
+
+    <style name="hotlineAgentNameTextAppearance" parent="Hotline.TextAppearance.Small">
+        <item name="android:textColor">@color/hotline_text_color</item>
+    </style>
+
+    <style name="hotlineUserMessageTextAppearance" parent="Hotline.TextAppearance.Medium">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="hotlineAgentMessageTextAppearance" parent="Hotline.TextAppearance.Medium">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="hotlineUserMessageTimeTextAppearance" parent="Hotline.TextAppearance.Small">
+        <item name="android:textColor">@color/hotline_text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="hotlineAgentMessageTimeTextAppearance" parent="Hotline.TextAppearance.Small">
+        <item name="android:textColor">@color/hotline_text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="hotlineMessageDeepLinkTextAppearance" parent="Hotline.TextAppearance.Medium">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="hotlineVoiceMessageDurationTextAppearance" parent="Hotline.TextAppearance.Small"></style>
+
+    <style name="hotlineChannelListItemStyle">
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="hotlineCategoryListItemStyle">
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="hotlineArticleListItemStyle">
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+</resources>

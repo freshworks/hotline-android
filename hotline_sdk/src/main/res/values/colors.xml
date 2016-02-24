@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Color of unread ticket count text in Support Page-->
+    <color name="hotline_ticket_unread_count_bubble_text">@color/hotline_background_color</color>
+    <color name="hotline_background_grey">#696969</color>
+
+    <!-- Background Color of unread ticket count text -->
+    <color name="hotline_unread_count_indicator_bg">#cc1500</color>
+
+    <!-- Color for conversation list item -->
+    <!-- Color for all text entered by user in the conversation view -->
+
+    <!-- Color for all text from agent/customer support executive in the conversation view -->
+    <color name="hotline_conversation_agent_text">#040404</color>
+
+    <!-- Color for the text accompanying a in-conversation review request -->
+    <color name="hotline_conversation_review_request_text">#7d7d7d</color>
+
+    <!-- Divider colors -->
+    <color name="hotline_divider_light">#c7c7c7</color>
+    <color name="hotline_divider_dark">#bbb</color>
+
+    <!-- Misc -->
+    <color name="hotline_background_color">#EFEFEF</color>
+    <color name="hotline_text_color">#707070</color>
+    <color name="hotline_divider_color">#EFEFEF</color>
+    <color name="hotline_chat_bgcolor">#F0F0F0</color>
+    <color name="hotline_theme_color">#505050</color>
+    <color name="hotline_message_read">#F0F0F0</color>
+    <color name="hotline_channel_alt_text_bg">#3F51B5</color>
+    <color name="hotline_category_alt_text_bg">#2196F3</color>
+
+    <color name="hotline_seekbar_bg_start">#000000</color>
+    <color name="hotline_seekbar_bg_center">#000000</color>
+    <color name="hotline_seekbar_bg_end">#000000</color>
+
+    <color name="hotline_seekbar_progress_start">#505050</color>
+    <color name="hotline_seekbar_progress_center">#505050</color>
+    <color name="hotline_seekbar_progress_end">#505050</color>
+
+    <color name="hotline_seekbar_sec_progress_start">#80FFD300</color>
+    <color name="hotline_seekbar_sec_progress_center">#80FFB600</color>
+    <color name="hotline_seekbar_sec_progress_end">#A0FFCB00</color>
+
+    <color name="hotline_visualizer_bg_start">#FFFFFF</color>
+    <color name="hotline_visualizer_bg_center">#FFFFFF</color>
+    <color name="hotline_visualizer_bg_end">#FFFFFF</color>
+
+    <color name="hotline_visualizer_progress_start">#505050</color>
+    <color name="hotline_visualizer_progress_center">#505050</color>
+    <color name="hotline_visualizer_progress_end">#505050</color>
+
+    <color name="hotline_visualizer_sec_progress_start">#80FFD300</color>
+    <color name="hotline_visualizer_sec_progress_center">#80FFB600</color>
+    <color name="hotline_visualizer_sec_progress_end">#A0FFCB00</color>
+
+    <color name="hotline_contact_us_btn_bg_normal">#2196F3</color>
+    <color name="hotline_contact_us_btn_bg_pressed">#1976D2</color>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+
+    <ListView
+        android:id="@+id/hotline_conv_detail_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/hotline_conv_detail_divider"
+        android:layout_alignWithParentIfMissing="true"
+        android:dividerHeight="@dimen/hotline_message_lisitem_divider_height"
+        android:stackFromBottom="true"
+        android:divider="@color/hotline_background_color"
+        android:background="@color/hotline_background_color"
+        android:transcriptMode="alwaysScroll" />
+
+    <View
+        android:id="@+id/hotline_conv_detail_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/hotline_conv_detail_text_reply_layout"
+        android:layout_alignWithParentIfMissing="true"
+        android:background="#D0D0D0" />
+
+    <include
+        layout="@layout/hotline_partial_text_message_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hotline_conv_detail_voice_reply_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignWithParentIfMissing="true" />
+
+    <include
+        layout="@layout/hotline_partial_voice_message_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

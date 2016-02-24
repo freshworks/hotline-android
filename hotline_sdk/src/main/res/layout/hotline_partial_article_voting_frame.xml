@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hotline_voting_view"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:layout_alignParentBottom="true"
+    tools:context=".activity.SolutionArticleActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/hotline_voting_view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hotline_article_thin_border"
+        android:background="@color/hotline_divider_dark" />
+
+    <TextView
+        android:id="@+id/hotline_voting_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAppearance="?attr/hotlineArticleVotingPromptTextAppearance"
+        android:text="@string/hotline_solutions_vote_prompt" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+	        android:id="@+id/hotline_upvote"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="4dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_weight="1"
+	        android:text="@string/hotline_label_yes" />
+
+        <Button
+	        android:id="@+id/hotline_downvote"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="4dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginLeft="8dp"
+	        android:layout_weight="1"
+	        android:text="@string/hotline_label_no" />
+    </LinearLayout>
+</LinearLayout>

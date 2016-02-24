@@ -1,0 +1,64 @@
+<resources>
+	<string name="hotline_label_user_name">You</string>
+	<string name="hotline_label_agent_name">Support</string>
+	<string name="hotline_label_duration">Duration</string>
+	<string name="hotline_label_downloading">Downloading...</string>
+	<string name="hotline_label_recording">Recording</string>
+	<string name="hotline_label_deeplink">View</string>
+	<string name="hotline_label_deeplink_article">View Solution</string>
+	<string name="hotline_label_picture_capture_from_camera">Take a picture</string>
+	<string name="hotline_label_picture_pick_from_gallery">Upload from gallery</string>
+	<string name="hotline_error_message_no_network_conneciton">No network connection found</string>
+	<string name="hotline_content_description_upload_status">upload_status</string>
+
+	<string name="hotline_category_list_empty_message">There are no FAQs available</string>
+	<string name="hotline_article_list_empty_message">There are no FAQs available</string>
+	<string name="hotline_label_support_solutions_list_label">FAQs</string>
+	<string name="hotline_message_vote_successful">Thank you for your Feedback!</string>
+	<string name="hotline_solutions_vote_prompt">Was this solution helpful?</string>
+
+	<!-- Label text for UI elements -->
+	<string name="hotline_label_yes">Yes</string>
+	<string name="hotline_label_no">No</string>
+	<string name="hotline_label_send_message">Send message</string>
+    <string name="hotline_label_video_loading_message">Loading Video. Please Wait!</string>
+
+	<!-- Hint for Input Fields -->
+	<string name="hotline_hint_compose_message">Type something...</string>
+
+	<!-- Image Content Descriptions -->
+	<string name="hotline_description_voice_message">Send voice message</string>
+	<string name="hotline_description_attach_image">Attach Image</string>
+	<string name="hotline_description_send_message">Send message</string>
+    <string name="hotline_label_contactus">Contact Us</string>
+	<string name="hotline_label_myconversations">My Conversations</string>
+	<string name="hotline_label_voice_message">Voice Message</string>
+
+	<!-- Default support agent name displayed alongside the messages, unless overridden from server -->
+	<string name="hotline_label_support_agent_name">Support</string>
+
+	<string name="hotline_message_failed_to_load_solution_article">Unable to load this article</string>
+	<string name="hotline_message_speaker_phone_on">Audio will play through your ear piece</string>
+	<string name="hotline_message_speaker_phone_off">"Audio will play through your phone's speaker"</string>
+    <string name="hotline_message_retry_message">Could not send message. Will try again later</string>
+	<string name="hotline_message_text_copied">Message text copied to clipboard</string>
+    <string name="hotline_message_image_Saved">New Image saved:</string>
+    <string name="hotline_message_image_not_saved">Image could not be saved.</string>
+    <string name="hotline_message_short_message_title">Message Too Short</string>
+    <string name="hotline_message_short_message">The message you are trying to send spans less than a second. Are you sure you want to send it ?</string>
+    <string name="hotline_message_from_db">Message cannot be displayed. Please upgrade your app to view this message</string>
+	<string name="hotline_error_no_matching_solution_articles_found">No matching solution articles found !</string>
+	<string name="hotline_menu_item_title_toggle_speaker">Toggle speakerphone</string>
+
+	<!-- Activity Title -->
+	<string name="hotline_activity_title_category_list">FAQs</string>
+	<string name="hotline_activity_title_article_list">FAQs</string>
+	<string name="hotline_activity_title_article_detail">FAQ</string>
+	<string name="hotline_activity_title_channel_list">Support</string>
+
+	<string name="hotline_menu_item_title_search_solutions">Search</string>
+	<string name="hotline_menu_item_title_contact_us">Contact Us</string>
+	<string name="hotline_hint_solutions_search_query_hint">Search our knowledge base</string>
+
+
+</resources>

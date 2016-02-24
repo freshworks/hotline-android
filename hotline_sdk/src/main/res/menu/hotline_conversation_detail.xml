@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hotlineapp="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/hotline_menu_item_toggle_speakerphone"
+        android:icon="?attr/hotlineSpeakerIcon"
+        android:title="@string/hotline_menu_item_title_toggle_speaker"
+        hotlineapp:showAsAction="always" />
+
+</menu>
+

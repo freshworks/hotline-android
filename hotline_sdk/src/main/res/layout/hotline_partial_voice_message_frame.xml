@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/hotline_conv_detail_voice_reply_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/hotline_message_reply_frame_min_height">
+
+    <ImageView
+        android:id="@+id/hotline_conv_detail_voice_reply_send_button"
+        android:layout_width="@dimen/hotline_message_send_icon_size"
+        android:layout_height="@dimen/hotline_message_send_icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/hotline_message_send_icon_padding"
+        android:src="?attr/hotlineSendIcon" />
+
+    <ImageView
+        android:id="@+id/hotline_conv_detail_voice_reply_cancel_button"
+        android:layout_width="@dimen/hotline_message_cancel_icon_size"
+        android:layout_height="@dimen/hotline_message_cancel_icon_size"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/hotline_message_cancel_icon_padding"
+        android:src="?attr/hotlineCancelIcon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/hotline_conv_detail_voice_reply_send_button"
+        android:layout_toRightOf="@+id/hotline_conv_detail_voice_reply_cancel_button"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/hotline_conv_detail_voice_reply_label_recording"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="@string/hotline_label_recording"
+            android:textColor="#000000" />
+
+        <ProgressBar
+            android:id="@+id/hotline_conv_detail_voice_reply_progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:progressDrawable="?attr/hotlineVoiceVisualizer" />
+
+        <TextView
+            android:id="@+id/hotline_conv_detail_voice_reply_time_elapsed_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="00"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</RelativeLayout>

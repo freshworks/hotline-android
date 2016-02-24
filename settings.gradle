@@ -1,0 +1,1 @@
+include ':hotline_sdk', ':demo_app'

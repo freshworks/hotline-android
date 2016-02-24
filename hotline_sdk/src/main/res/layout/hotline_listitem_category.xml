@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/hotlineChannelListItemStyle">
+
+    <ImageView
+        android:id="@+id/hotline_category_icon"
+        android:layout_width="@dimen/hotline_category_icon_size"
+        android:layout_height="@dimen/hotline_category_icon_size"
+        android:padding="@dimen/hotline_category_icon_padding" />
+
+    <TextView
+        android:id="@+id/hotline_category_icon_alt_text"
+        android:layout_width="@dimen/hotline_category_icon_alt_view_size"
+        android:layout_height="@dimen/hotline_category_icon_alt_view_size"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/hotline_category_icon_padding"
+        android:background="@drawable/hotline_category_alt_text_bg"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/hotline_category_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/hotline_category_icon_size"
+        android:maxLines="1"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="12dp"
+        android:textAppearance="?attr/hotlineCategoryNameTextAppearance"
+        tools:text="Category Name" />
+
+    <TextView
+        android:id="@+id/hotline_category_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hotline_category_name"
+        android:layout_below="@+id/hotline_category_name"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textAppearance="?attr/hotlineCategoryDescriptionTextAppearance" />
+</RelativeLayout>

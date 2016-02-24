@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/hotlineChannelListItemStyle">
+
+    <ImageView
+        android:id="@+id/hotline_channel_icon"
+        android:layout_width="@dimen/hotline_channel_icon_size"
+        android:layout_height="@dimen/hotline_channel_icon_size"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/hotline_channel_icon_padding" />
+
+    <TextView
+        android:id="@+id/hotline_channel_icon_alt_text"
+        android:layout_width="@dimen/hotline_channel_icon_alt_view_size"
+        android:layout_height="@dimen/hotline_channel_icon_alt_view_size"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="@android:color/white"
+        android:background="@drawable/hotline_channel_alt_text_bg"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="@dimen/hotline_channel_icon_padding" />
+
+    <TextView
+        android:id="@+id/hotline_channel_last_updated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Nov 26, 12:45 PM"
+        android:visibility="gone"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/hotline_channel_desc"
+        android:textAppearance="?attr/hotlineChannelLastUpdatedTextAppearance" />
+
+    <TextView
+        android:id="@+id/hotline_channel_unread_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hotline_channel_last_updated"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:drawableLeft="?attr/hotlineUnreadCountIcon"
+        android:padding="8dp"
+        android:text="5"
+        android:visibility="gone"
+        android:textAppearance="?attr/hotlineChannelUnreadCountTextAppearance" />
+
+    <TextView
+        android:id="@+id/hotline_channel_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/hotline_channel_icon_size"
+        android:layout_toLeftOf="@+id/hotline_channel_unread_count"
+        android:maxLines="1"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        tools:text="Channel Name"
+        android:textAppearance="?attr/hotlineChannelNameTextAppearance" />
+
+    <TextView
+        android:id="@+id/hotline_channel_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hotline_channel_name"
+        android:layout_alignRight="@+id/hotline_channel_name"
+        android:layout_below="@+id/hotline_channel_name"
+        android:maxLines="2"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="4dp"
+        android:ellipsize="end"
+        android:textAppearance="?attr/hotlineChannelDescriptionTextAppearance" />
+</RelativeLayout>
