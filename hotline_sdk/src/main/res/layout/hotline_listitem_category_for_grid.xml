@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="8dp"
-    style="@style/hotlineCategoryListItemStyle">
+    style="?attr/hotlineCategoryListItemStyle">
 
     <ImageView
         android:id="@+id/hotline_category_icon"
@@ -17,14 +17,8 @@
 
     <TextView
         android:id="@+id/hotline_category_icon_alt_text"
-        android:layout_width="@dimen/hotline_category_icon_alt_view_size"
-        android:layout_height="@dimen/hotline_category_icon_alt_view_size"
+        style="?attr/hotlineCategoryAltIconStyle"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="@dimen/hotline_category_icon_padding"
-        android:background="@drawable/hotline_category_alt_text_bg"
-        android:gravity="center"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@android:color/white"
         android:visibility="gone" />
 
     <TextView

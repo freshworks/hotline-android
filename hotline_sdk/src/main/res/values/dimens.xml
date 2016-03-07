@@ -44,7 +44,6 @@
     <dimen name="hotline_category_icon_alt_view_size">48dp</dimen>
 
     <!-- FAQ Article UI Dimens -->
-    <dimen name="hotline_article_thick_border">2dp</dimen>
-    <dimen name="hotline_article_thin_border">1dp</dimen>
+    <dimen name="hotline_voting_view_divider_height">1dp</dimen>
 
 </resources>

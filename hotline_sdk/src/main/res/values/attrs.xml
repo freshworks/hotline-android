@@ -34,29 +34,46 @@
     <!-- Text Appearance Customizations - Common -->
     <attr name="hotlineContactUsTextAppearance" format="reference" />
 
-    <!-- Text Appearance Customizations - Solution Article -->
-    <attr name="hotlineArticleTitleTextAppearance" format="reference" />
-    <attr name="hotlineArticleVotingPromptTextAppearance" format="reference" />
-    <attr name="hotlineArticleListEmptyWarningTextAppearance" format="reference" />
-
-    <!-- Text Appearance Customizations - Solution Article Category -->
+    <!-- FAQ Category List Item Customizations -->
+    <attr name="hotlineCategoryListItemStyle" format="reference" />
     <attr name="hotlineCategoryNameTextAppearance" format="reference" />
     <attr name="hotlineCategoryDescriptionTextAppearance" format="reference" />
     <attr name="hotlineCategoryListEmptyWarningTextAppearance" format="reference" />
+    <attr name="hotlineCategoryAltIconStyle" format="reference" />
 
-    <!-- Text Appearance Customizations - Message Channels -->
+    <!-- Article List Customizations -->
+    <attr name="hotlineArticleListStyle" format="reference" />
+    <attr name="hotlineArticleListItemStyle" format="reference" />
+    <attr name="hotlineArticleTitleTextAppearance" format="reference" />
+    <attr name="hotlineArticleListEmptyWarningTextAppearance" format="reference" />
+
+    <!-- Article Detail Customizations -->
+    <attr name="hotlineArticleVotingPromptTextStyle" format="reference" />
+    <attr name="hotlineArticleUpvoteStyle" format="reference" />
+    <attr name="hotlineArticleDownvoteStyle" format="reference" />
+
+    <!-- Message Channel Item Customizations -->
+    <attr name="hotlineChannelListItemStyle" format="reference" />
+    <attr name="hotlineChannelAltIconStyle" format="reference" />
     <attr name="hotlineChannelNameTextAppearance" format="reference" />
     <attr name="hotlineChannelDescriptionTextAppearance" format="reference" />
     <attr name="hotlineChannelLastUpdatedTextAppearance" format="reference" />
     <attr name="hotlineChannelUnreadCountTextAppearance" format="reference" />
 
-    <!-- Text Appearance Customizations - Message List -->
+    <!-- Message List Item Customizations -->
+    <!-- Style for the message list view -->
+    <attr name="hotlineMessageListStyle" format="reference" />
+    <!-- Style for the each of the items in the message list -->
+    <attr name="hotlineMessageListItemStyle" format="reference" />
+    <attr name="hotlineMessageDeepLinkStyle" format="reference" />
+    <attr name="hotlineMessageReplyEditTextViewStyle" format="reference" />
+
     <attr name="hotlineAgentNameTextAppearance" format="reference" />
     <attr name="hotlineUserMessageTextAppearance" format="reference" />
     <attr name="hotlineAgentMessageTextAppearance" format="reference" />
     <attr name="hotlineUserMessageTimeTextAppearance" format="reference" />
     <attr name="hotlineAgentMessageTimeTextAppearance" format="reference" />
-    <attr name="hotlineMessageDeepLinkTextAppearance" format="reference" />
     <attr name="hotlineVoiceMessageDurationTextAppearance" format="reference" />
+    <attr name="hotlineConversationBannerMessageStyle" format="reference" />
 
 </resources>

@@ -2,11 +2,85 @@
 
     <style name="Theme.Hotline.SelectedTheme" parent="@style/Theme.Hotline.Light.DarkActionBar" />
 
-    <style name="Theme.Hotline" parent="@style/Theme.AppCompat">
-    </style>
+    <!--<style name="Theme.Hotline" parent="@style/Theme.AppCompat"></style>-->
 
     <style name="Theme.Hotline.Light" parent="@style/Theme.AppCompat.Light">
+        <!-- Action Icons -->
+        <item name="hotlinePlayIcon">@drawable/hotline_ic_play</item>
+        <item name="hotlineStopIcon">@drawable/hotline_ic_stop</item>
+        <item name="hotlineSendIcon">@drawable/hotline_ic_send</item>
+        <item name="hotlineCancelIcon">@drawable/hotline_ic_cancel</item>
+        <item name="hotlineAttachIcon">@drawable/hotline_ic_attach</item>
+        <item name="hotlineRecordIcon">@drawable/hotline_ic_record</item>
 
+        <!-- ActionBar Menu Icons -->
+        <item name="hotlineSearchIcon">@drawable/hotline_ic_action_search_light</item>
+        <item name="hotlineSpeakerIcon">@null</item>
+        <item name="hotlineEarpieceIcon">@null</item>
+
+        <!-- Misc Icons-->
+        <item name="hotlineAvatarIcon">@null</item>
+        <item name="hotlineUnreadCountIcon">@drawable/hotline_ic_unread_count</item>
+        <item name="hotlineContactUsIcon">@drawable/hotline_ic_action_contact_us</item>
+
+        <!-- Chat Bubbles -->
+        <item name="hotlineChatBubbleLeft">@drawable/hotline_chat_bubble_left</item>
+        <item name="hotlineChatBubbleRight">@drawable/hotline_chat_bubble_right</item>
+
+        <!-- Misc Drawables -->
+        <item name="hotlineVoiceVisualizer">@drawable/hotline_voice_visualizer_drawable</item>
+        <item name="hotlineVoiceMessageSeekbar">@drawable/hotline_voice_message_seekbar</item>
+        <item name="hotlineVoiceMessageSeekbarThumb">@drawable/hotline_voice_message_seekbar_thumb</item>
+
+        <!-- Message Widget Styles -->
+        <item name="hotlineMessageListStyle">@style/Widget.Hotline.MessageList</item>
+        <item name="hotlineMessageListItemStyle">@style/Widget.Hotline.MessageListItem</item>
+        <item name="hotlineMessageDeepLinkStyle">@style/Widget.Hotline.MessageDeepLinkButton</item>
+        <item name="hotlineMessageReplyEditTextViewStyle">@style/Widget.Hotline.MessageReplyEditText</item>
+        <item name="hotlineConversationBannerMessageStyle">@style/Widget.Hotline.ConversationBannerMessage</item>
+
+        <!-- Message Text Styles -->
+        <item name="hotlineAgentNameTextAppearance">@style/TextAppearance.Hotline.AgentName</item>
+        <item name="hotlineUserMessageTextAppearance">@style/TextAppearance.Hotline.UserMessage</item>
+        <item name="hotlineAgentMessageTextAppearance">@style/TextAppearance.Hotline.AgentMessage</item>
+        <item name="hotlineUserMessageTimeTextAppearance">@style/TextAppearance.Hotline.UserMessageTime</item>
+        <item name="hotlineAgentMessageTimeTextAppearance">@style/TextAppearance.Hotline.AgentMessageTime</item>
+        <item name="hotlineVoiceMessageDurationTextAppearance">@style/TextAppearance.Hotline.VoiceMessageDuration</item>
+
+        <!-- Channel Widget Styles -->
+        <item name="hotlineChannelListItemStyle">@style/Widget.Hotline.ChannelListItem</item>
+        <item name="hotlineChannelAltIconStyle">@style/Widget.Hotline.ChannelAltIcon</item>
+
+        <!-- Channel Text Styles -->
+        <item name="hotlineChannelNameTextAppearance">@style/TextAppearance.Hotline.ChannelName</item>
+        <item name="hotlineChannelDescriptionTextAppearance">@style/TextAppearance.Hotline.ChannelDescription</item>
+        <item name="hotlineChannelLastUpdatedTextAppearance">@style/TextAppearance.Hotline.ChannelLastUpdated</item>
+        <item name="hotlineChannelUnreadCountTextAppearance">@style/TextAppearance.Hotline.ChannelUnreadCount</item>
+
+        <!-- FAQ Category Widget Styles -->
+        <item name="hotlineCategoryListItemStyle">@style/Widget.Hotline.CategoryListItem</item>
+        <item name="hotlineCategoryAltIconStyle">@style/Widget.Hotline.CategoryAltIcon</item>
+
+        <!-- FAQ Category Text Styles -->
+        <item name="hotlineCategoryNameTextAppearance">@style/TextAppearance.Hotline.CategoryName</item>
+        <item name="hotlineCategoryDescriptionTextAppearance">@style/TextAppearance.Hotline.CategoryDescription</item>
+        <item name="hotlineCategoryListEmptyWarningTextAppearance">@style/TextAppearance.Hotline.CategoryListEmptyText</item>
+
+        <!-- FAQ/Article List Widget Styles -->
+        <item name="hotlineArticleListStyle">@style/Widget.Hotline.ArticleList</item>
+        <item name="hotlineArticleListItemStyle">@style/Widget.Hotline.ArticleListItem</item>
+
+        <!-- FAQ/Article List Text Styles -->
+        <item name="hotlineArticleTitleTextAppearance">@style/TextAppearance.Hotline.ArticleTitle</item>
+        <item name="hotlineArticleListEmptyWarningTextAppearance">@style/TextAppearance.Hotline.ArticleListEmptyText</item>
+
+        <!-- FAQ/Article Detail Widget Styles -->
+        <item name="hotlineArticleUpvoteStyle">@style/Widget.Hotline.ArticleUpvoteButton</item>
+        <item name="hotlineArticleDownvoteStyle">@style/Widget.Hotline.ArticleDownvoteButton</item>
+        <item name="hotlineArticleVotingPromptTextStyle">@style/Widget.Hotline.ArticleVotingPromptText</item>
+
+        <!-- Misc Styles -->
+        <item name="hotlineContactUsTextAppearance">@style/TextAppearance.Hotline.ContactUs</item>
     </style>
 
     <style name="Theme.Hotline.Light.DarkActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
@@ -21,43 +95,72 @@
 
         <!-- Menu Icons -->
         <item name="hotlineSearchIcon">@drawable/hotline_ic_action_search_dark</item>
-        <item name="hotlineSpeakerIcon">@drawable/hotline_ic_speaker</item>
-        <item name="hotlineEarpieceIcon">@drawable/hotline_ic_earpiece</item>
-        <item name="hotlineContactUsIcon">@drawable/hotline_ic_action_contact_us</item>
+        <item name="hotlineSpeakerIcon">@null</item>
+        <item name="hotlineEarpieceIcon">@null</item>
 
         <!-- Misc Icons-->
         <item name="hotlineAvatarIcon">@null</item>
         <item name="hotlineUnreadCountIcon">@drawable/hotline_ic_unread_count</item>
+        <item name="hotlineContactUsIcon">@drawable/hotline_ic_action_contact_us</item>
 
         <!-- Chat Bubbles -->
         <item name="hotlineChatBubbleLeft">@drawable/hotline_chat_bubble_left</item>
         <item name="hotlineChatBubbleRight">@drawable/hotline_chat_bubble_right</item>
 
-        <!-- Misc -->
+        <!-- Misc Drawables -->
         <item name="hotlineVoiceVisualizer">@drawable/hotline_voice_visualizer_drawable</item>
         <item name="hotlineVoiceMessageSeekbar">@drawable/hotline_voice_message_seekbar</item>
         <item name="hotlineVoiceMessageSeekbarThumb">@drawable/hotline_voice_message_seekbar_thumb</item>
 
-        <!-- Text Appearance Styles -->
-        <item name="hotlineContactUsTextAppearance">@style/hotlineContactUsTextAppearance</item>
-        <item name="hotlineArticleTitleTextAppearance">@style/hotlineArticleTitleTextAppearance</item>
-        <item name="hotlineArticleVotingPromptTextAppearance">@style/hotlineArticleVotingPromptTextAppearance</item>
-        <item name="hotlineArticleListEmptyWarningTextAppearance">@style/hotlineArticleListEmptyWarningTextAppearance</item>
-        <item name="hotlineCategoryNameTextAppearance">@style/hotlineCategoryNameTextAppearance</item>
-        <item name="hotlineCategoryDescriptionTextAppearance">@style/hotlineCategoryDescriptionTextAppearance</item>
-        <item name="hotlineCategoryListEmptyWarningTextAppearance">@style/hotlineCategoryListEmptyWarningTextAppearance</item>
-        <item name="hotlineChannelNameTextAppearance">@style/hotlineChannelNameTextAppearance</item>
-        <item name="hotlineChannelDescriptionTextAppearance">@style/hotlineChannelDescriptionTextAppearance</item>
-        <item name="hotlineChannelLastUpdatedTextAppearance">@style/hotlineChannelLastUpdatedTextAppearance</item>
-        <item name="hotlineChannelUnreadCountTextAppearance">@style/hotlineChannelUnreadCountTextAppearance</item>
-        <item name="hotlineAgentNameTextAppearance">@style/hotlineAgentNameTextAppearance</item>
-        <item name="hotlineUserMessageTextAppearance">@style/hotlineUserMessageTextAppearance</item>
-        <item name="hotlineAgentMessageTextAppearance">@style/hotlineAgentMessageTextAppearance</item>
-        <item name="hotlineUserMessageTimeTextAppearance">@style/hotlineUserMessageTimeTextAppearance</item>
-        <item name="hotlineAgentMessageTimeTextAppearance">@style/hotlineAgentMessageTimeTextAppearance</item>
-        <item name="hotlineMessageDeepLinkTextAppearance">@style/hotlineMessageDeepLinkTextAppearance</item>
-        <item name="hotlineVoiceMessageDurationTextAppearance">@style/hotlineVoiceMessageDurationTextAppearance</item>
+        <!-- Message Widget Styles -->
+        <item name="hotlineMessageListStyle">@style/Widget.Hotline.MessageList</item>
+        <item name="hotlineMessageListItemStyle">@style/Widget.Hotline.MessageListItem</item>
+        <item name="hotlineMessageDeepLinkStyle">@style/Widget.Hotline.MessageDeepLinkButton</item>
+        <item name="hotlineMessageReplyEditTextViewStyle">@style/Widget.Hotline.MessageReplyEditText</item>
+        <item name="hotlineConversationBannerMessageStyle">@style/Widget.Hotline.ConversationBannerMessage</item>
 
+        <!-- Message Text Styles -->
+        <item name="hotlineAgentNameTextAppearance">@style/TextAppearance.Hotline.AgentName</item>
+        <item name="hotlineUserMessageTextAppearance">@style/TextAppearance.Hotline.UserMessage</item>
+        <item name="hotlineAgentMessageTextAppearance">@style/TextAppearance.Hotline.AgentMessage</item>
+        <item name="hotlineUserMessageTimeTextAppearance">@style/TextAppearance.Hotline.UserMessageTime</item>
+        <item name="hotlineAgentMessageTimeTextAppearance">@style/TextAppearance.Hotline.AgentMessageTime</item>
+        <item name="hotlineVoiceMessageDurationTextAppearance">@style/TextAppearance.Hotline.VoiceMessageDuration</item>
+
+        <!-- Channel Widget Styles -->
+        <item name="hotlineChannelListItemStyle">@style/Widget.Hotline.ChannelListItem</item>
+        <item name="hotlineChannelAltIconStyle">@style/Widget.Hotline.ChannelAltIcon</item>
+
+        <!-- Channel Text Styles -->
+        <item name="hotlineChannelNameTextAppearance">@style/TextAppearance.Hotline.ChannelName</item>
+        <item name="hotlineChannelDescriptionTextAppearance">@style/TextAppearance.Hotline.ChannelDescription</item>
+        <item name="hotlineChannelLastUpdatedTextAppearance">@style/TextAppearance.Hotline.ChannelLastUpdated</item>
+        <item name="hotlineChannelUnreadCountTextAppearance">@style/TextAppearance.Hotline.ChannelUnreadCount</item>
+
+        <!-- FAQ Category Widget Styles -->
+        <item name="hotlineCategoryListItemStyle">@style/Widget.Hotline.CategoryListItem</item>
+        <item name="hotlineCategoryAltIconStyle">@style/Widget.Hotline.CategoryAltIcon</item>
+
+        <!-- FAQ Category Text Styles -->
+        <item name="hotlineCategoryNameTextAppearance">@style/TextAppearance.Hotline.CategoryName</item>
+        <item name="hotlineCategoryDescriptionTextAppearance">@style/TextAppearance.Hotline.CategoryDescription</item>
+        <item name="hotlineCategoryListEmptyWarningTextAppearance">@style/TextAppearance.Hotline.CategoryListEmptyText</item>
+
+        <!-- FAQ/Article List Widget Styles -->
+        <item name="hotlineArticleListStyle">@style/Widget.Hotline.ArticleList</item>
+        <item name="hotlineArticleListItemStyle">@style/Widget.Hotline.ArticleListItem</item>
+
+        <!-- FAQ/Article List Text Styles -->
+        <item name="hotlineArticleTitleTextAppearance">@style/TextAppearance.Hotline.ArticleTitle</item>
+        <item name="hotlineArticleListEmptyWarningTextAppearance">@style/TextAppearance.Hotline.ArticleListEmptyText</item>
+
+        <!-- FAQ/Article Detail Widget Styles -->
+        <item name="hotlineArticleUpvoteStyle">@style/Widget.Hotline.ArticleUpvoteButton</item>
+        <item name="hotlineArticleDownvoteStyle">@style/Widget.Hotline.ArticleDownvoteButton</item>
+        <item name="hotlineArticleVotingPromptTextStyle">@style/Widget.Hotline.ArticleVotingPromptText</item>
+
+        <!-- Misc Styles -->
+        <item name="hotlineContactUsTextAppearance">@style/TextAppearance.Hotline.ContactUs</item>
     </style>
 
 </resources>

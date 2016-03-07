@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     android:id="@+id/hotline_message_root"
+    style="?attr/hotlineMessageListItemStyle"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/hotline_background_color">
+    android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/hotline_message_avatar"
@@ -90,28 +90,13 @@
                 android:layout_marginRight="4dp"
                 android:text="@string/hotline_label_duration"
                 android:textAppearance="?attr/hotlineVoiceMessageDurationTextAppearance"
-                android:textColor="@color/hotline_text_color"
                 android:visibility="gone" />
         </RelativeLayout>
 
-        <TextView
+        <Button
             android:id="@+id/hotline_message_deeplink_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="?attr/hotlineMessageDeepLinkStyle"
             android:layout_below="@+id/hotline_message_voice_container"
-            android:layout_marginTop="4dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="4dp"
-            android:background="@color/hotline_chat_bgcolor"
-            android:ellipsize="end"
-            android:gravity="center"
-            android:minHeight="48dp"
-            android:minWidth="100dp"
-            android:padding="8dp"
-            android:singleLine="true"
-            android:text="@string/hotline_label_deeplink"
-            android:textAppearance="?attr/hotlineMessageDeepLinkTextAppearance"
             android:visibility="gone" />
 
         <TextView

@@ -4,7 +4,7 @@
     
     <item
         android:id="@+id/hotline_menu_item_toggle_speakerphone"
-        android:icon="?attr/hotlineSpeakerIcon"
+        android:visible="false"
         android:title="@string/hotline_menu_item_title_toggle_speaker"
         hotlineapp:showAsAction="always" />
 

@@ -4,13 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <View
-        android:id="@+id/hotline_solution_article_title_divider"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/hotline_article_thick_border"
-        android:layout_alignParentTop="true"
-        android:background="@color/hotline_divider_light" />
-
     <include
         layout="@layout/hotline_partial_article_voting_frame"
         android:layout_width="match_parent"

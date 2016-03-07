@@ -1,90 +1,216 @@
 <resources>
 
-    <style name="Hotline.TextAppearance" parent="TextAppearance.AppCompat">
+    <style name="Widget" />
+
+    <style name="Widget.Hotline" />
+
+    <style name="TextAppearance.Hotline" parent="TextAppearance.AppCompat"></style>
+
+    <style name="TextAppearance.Hotline.Small" parent="TextAppearance.AppCompat.Small"></style>
+
+    <style name="TextAppearance.Hotline.Medium" parent="TextAppearance.AppCompat.Medium"></style>
+
+    <style name="TextAppearance.Hotline.Large" parent="TextAppearance.AppCompat.Large"></style>
+
+    <!-- Message Styling & Customizations -->
+
+    <style name="Widget.Hotline.MessageList">
+        <item name="android:background">@color/hotline_message_list_bg</item>
+        <item name="android:divider">@color/hotline_message_list_divider</item>
+        <item name="android:dividerHeight">@dimen/hotline_message_lisitem_divider_height</item>
+        <item name="android:stackFromBottom">true</item>
+        <item name="android:transcriptMode">alwaysScroll</item>
+        <item name="android:paddingBottom">8dp</item>
     </style>
 
-    <style name="Hotline.TextAppearance.Small" parent="TextAppearance.AppCompat.Small">
+    <style name="Widget.Hotline.MessageListItem">
+        <item name="android:background">@color/hotline_message_list_item_bg</item>
     </style>
 
-    <style name="Hotline.TextAppearance.Medium" parent="TextAppearance.AppCompat.Medium">
+    <style name="Widget.Hotline.MessageDeepLinkButton" parent="Widget.AppCompat.Button">
+        <item name="android:textAppearance">@style/TextAppearance.Hotline.MessageDeepLink</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/hotline_label_deeplink</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">100dp</item>
     </style>
 
-    <style name="Hotline.TextAppearance.Large" parent="TextAppearance.AppCompat.Large">
+    <style name="Widget.Hotline.MessageReplyEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:hint">@string/hotline_hint_compose_message</item>
+        <item name="android:inputType">textMultiLine|textCapSentences</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">@dimen/hotline_message_send_icon_size</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textColor">@color/hotline_message_reply_text</item>
+        <item name="android:textColorHint">@color/hotline_message_reply_hint_text</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
-    <style name="hotlineContactUsTextAppearance" parent="Hotline.TextAppearance.Medium">
+    <style name="TextAppearance.Hotline.AgentName" parent="TextAppearance.Hotline.Small">
+        <item name="android:textColor">@color/hotline_text_color</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.UserMessage" parent="TextAppearance.Hotline.Medium">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.AgentMessage" parent="TextAppearance.Hotline.Medium">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.UserMessageTime" parent="TextAppearance.Hotline.Small">
+        <item name="android:textColor">@color/hotline_text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.AgentMessageTime" parent="TextAppearance.Hotline.Small">
+        <item name="android:textColor">@color/hotline_text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.MessageDeepLink" parent="TextAppearance.Hotline.Medium">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.VoiceMessageDuration" parent="TextAppearance.Hotline.Small">
+        <item name="android:textColor">@color/hotline_text_color</item>
+    </style>
+
+    <style name="Widget.Hotline.ConversationBannerMessage">
+        <item name="android:background">@color/hotline_contact_us_btn_bg_normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAppearance">@style/TextAppearance.Hotline.Medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Channel Styling & Customizations -->
+
+    <style name="Widget.Hotline.ChannelListItem">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+    <style name="Widget.Hotline.ChannelAltIcon">
+        <item name="android:layout_height">@dimen/hotline_channel_icon_alt_view_size</item>
+        <item name="android:layout_width">@dimen/hotline_channel_icon_alt_view_size</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/hotline_channel_alt_text_bg</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:layout_margin">@dimen/hotline_channel_icon_padding</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.ChannelName" parent="TextAppearance.Hotline.Large">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.ChannelDescription" parent="TextAppearance.Hotline.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.ChannelLastUpdated" parent="TextAppearance.Hotline.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.ChannelUnreadCount" parent="TextAppearance.Hotline.Medium"></style>
+
+
+
+    <!-- FAQ Category Styling & Customizations -->
+
+    <style name="Widget.Hotline.CategoryListItem">
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Widget.Hotline.CategoryAltIcon">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/hotline_category_alt_text_bg</item>
+        <item name="android:layout_margin">@dimen/hotline_category_icon_padding</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:layout_width">@dimen/hotline_category_icon_alt_view_size</item>
+        <item name="android:layout_height">@dimen/hotline_category_icon_alt_view_size</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.CategoryName" parent="TextAppearance.Hotline.Medium"></style>
+
+    <style name="TextAppearance.Hotline.CategoryDescription" parent="TextAppearance.Hotline"></style>
+
+    <style name="TextAppearance.Hotline.CategoryListEmptyText" parent="TextAppearance.Hotline.Medium"></style>
+
+
+
+    <!-- FAQ List Styling & Customizations -->
+
+    <style name="Widget.Hotline.ArticleList">
+        <item name="android:divider">@color/hotline_article_list_divider</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="Widget.Hotline.ArticleListItem">
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.ArticleTitle" parent="TextAppearance.Hotline.Medium"></style>
+
+    <style name="TextAppearance.Hotline.ArticleListEmptyText" parent="TextAppearance.Hotline.Medium"></style>
+
+    <!-- FAQ Styling & Customizations -->
+
+    <style name="Widget.Hotline.ArticleVotingPromptText">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:text">@string/hotline_solutions_vote_prompt</item>
+    </style>
+
+    <style name="Widget.Hotline.ArticleUpvoteButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:text">@string/hotline_label_article_upvote</item>
+    </style>
+
+    <style name="Widget.Hotline.ArticleDownvoteButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:text">@string/hotline_label_article_downvote</item>
+    </style>
+
+
+    <!-- Common -->
+
+    <style name="TextAppearance.Hotline.ContactUs" parent="TextAppearance.Hotline.Medium">
         <item name="android:textSize">22sp</item>
         <item name="android:textColor">@android:color/white</item>
-    </style>
-
-    <style name="hotlineArticleTitleTextAppearance" parent="Hotline.TextAppearance.Medium"></style>
-
-    <style name="hotlineArticleVotingPromptTextAppearance" parent="Hotline.TextAppearance.Medium"></style>
-
-    <style name="hotlineArticleListEmptyWarningTextAppearance" parent="Hotline.TextAppearance.Medium"></style>
-
-    <style name="hotlineCategoryNameTextAppearance" parent="Hotline.TextAppearance.Medium"></style>
-
-    <style name="hotlineCategoryDescriptionTextAppearance" parent="Hotline.TextAppearance"></style>
-
-    <style name="hotlineCategoryListEmptyWarningTextAppearance" parent="Hotline.TextAppearance.Medium"></style>
-
-    <style name="hotlineChannelNameTextAppearance" parent="Hotline.TextAppearance.Large">
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">18sp</item>
-    </style>
-
-    <style name="hotlineChannelDescriptionTextAppearance" parent="Hotline.TextAppearance.Medium">
-        <item name="android:textSize">16sp</item>
-    </style>
-
-    <style name="hotlineChannelLastUpdatedTextAppearance" parent="Hotline.TextAppearance.Small">
-        <item name="android:textSize">12sp</item>
-    </style>
-
-    <style name="hotlineChannelUnreadCountTextAppearance" parent="Hotline.TextAppearance.Medium"></style>
-
-    <style name="hotlineAgentNameTextAppearance" parent="Hotline.TextAppearance.Small">
-        <item name="android:textColor">@color/hotline_text_color</item>
-    </style>
-
-    <style name="hotlineUserMessageTextAppearance" parent="Hotline.TextAppearance.Medium">
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">16sp</item>
-    </style>
-
-    <style name="hotlineAgentMessageTextAppearance" parent="Hotline.TextAppearance.Medium">
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">16sp</item>
-    </style>
-
-    <style name="hotlineUserMessageTimeTextAppearance" parent="Hotline.TextAppearance.Small">
-        <item name="android:textColor">@color/hotline_text_color</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-
-    <style name="hotlineAgentMessageTimeTextAppearance" parent="Hotline.TextAppearance.Small">
-        <item name="android:textColor">@color/hotline_text_color</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-
-    <style name="hotlineMessageDeepLinkTextAppearance" parent="Hotline.TextAppearance.Medium">
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">18sp</item>
-    </style>
-
-    <style name="hotlineVoiceMessageDurationTextAppearance" parent="Hotline.TextAppearance.Small"></style>
-
-    <style name="hotlineChannelListItemStyle">
-        <item name="android:background">?attr/selectableItemBackground</item>
-    </style>
-
-    <style name="hotlineCategoryListItemStyle">
-        <item name="android:background">?attr/selectableItemBackground</item>
-    </style>
-
-    <style name="hotlineArticleListItemStyle">
-        <item name="android:background">?attr/selectableItemBackground</item>
     </style>
 
 </resources>

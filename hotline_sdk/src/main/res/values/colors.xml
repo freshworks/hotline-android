@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Color of unread ticket count text in Support Page-->
-    <color name="hotline_ticket_unread_count_bubble_text">@color/hotline_background_color</color>
-    <color name="hotline_background_grey">#696969</color>
+    <!-- Message list view background color -->
+    <color name="hotline_message_list_bg">#EFEFEF</color>
 
-    <!-- Background Color of unread ticket count text -->
-    <color name="hotline_unread_count_indicator_bg">#cc1500</color>
+    <!-- Message list item background color -->
+    <color name="hotline_message_list_item_bg">#EFEFEF</color>
 
-    <!-- Color for conversation list item -->
-    <!-- Color for all text entered by user in the conversation view -->
+    <!-- Message reply edit text view text color -->
+    <color name="hotline_message_reply_text">#252525</color>
 
-    <!-- Color for all text from agent/customer support executive in the conversation view -->
-    <color name="hotline_conversation_agent_text">#040404</color>
-
-    <!-- Color for the text accompanying a in-conversation review request -->
-    <color name="hotline_conversation_review_request_text">#7d7d7d</color>
+    <!-- Message reply edit text view hint text color -->
+    <color name="hotline_message_reply_hint_text">#606060</color>
 
     <!-- Divider colors -->
-    <color name="hotline_divider_light">#c7c7c7</color>
-    <color name="hotline_divider_dark">#bbb</color>
+    <!-- Divider between each item in the article list -->
+    <color name="hotline_article_list_divider">#C7C7C7</color>
 
-    <!-- Misc -->
+    <!-- Divider above the voting view in FAQ Detail -->
+    <color name="hotline_voting_view_divider">#BBB</color>
+
+    <!-- Divider between each message item in the message list -->
+    <color name="hotline_message_list_divider">#EFEFEF</color>
+
+    <!-- Divider between message list and reply view -->
+    <color name="hotline_message_list_reply_view_divider">#D0D0D0</color>
+
+    <!-- Misc Colors -->
+    <color name="hotline_background_grey">#696969</color>
     <color name="hotline_background_color">#EFEFEF</color>
     <color name="hotline_text_color">#707070</color>
-    <color name="hotline_divider_color">#EFEFEF</color>
-    <color name="hotline_chat_bgcolor">#F0F0F0</color>
     <color name="hotline_theme_color">#505050</color>
     <color name="hotline_message_read">#F0F0F0</color>
     <color name="hotline_channel_alt_text_bg">#3F51B5</color>

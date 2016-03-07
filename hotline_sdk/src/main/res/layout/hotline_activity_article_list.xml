@@ -5,14 +5,10 @@
 
     <ListView
         android:id="@+id/list"
+        style="?attr/hotlineArticleListStyle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="@color/hotline_divider_light"
-        android:dividerHeight="1px"
-        android:layout_above="@+id/hotline_contact_us_group"
-        android:minHeight="?android:attr/listPreferredItemHeight"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp" />
+        android:layout_above="@+id/hotline_contact_us_group" />
 
     <include
         android:id="@+id/empty"

@@ -20,11 +20,13 @@
 	<!-- Label text for UI elements -->
 	<string name="hotline_label_yes">Yes</string>
 	<string name="hotline_label_no">No</string>
+	<string name="hotline_label_article_upvote">Yes</string>
+	<string name="hotline_label_article_downvote">No</string>
 	<string name="hotline_label_send_message">Send message</string>
     <string name="hotline_label_video_loading_message">Loading Video. Please Wait!</string>
 
 	<!-- Hint for Input Fields -->
-	<string name="hotline_hint_compose_message">Type something...</string>
+	<string name="hotline_hint_compose_message">Type a message</string>
 
 	<!-- Image Content Descriptions -->
 	<string name="hotline_description_voice_message">Send voice message</string>
@@ -33,9 +35,6 @@
     <string name="hotline_label_contactus">Contact Us</string>
 	<string name="hotline_label_myconversations">My Conversations</string>
 	<string name="hotline_label_voice_message">Voice Message</string>
-
-	<!-- Default support agent name displayed alongside the messages, unless overridden from server -->
-	<string name="hotline_label_support_agent_name">Support</string>
 
 	<string name="hotline_message_failed_to_load_solution_article">Unable to load this article</string>
 	<string name="hotline_message_speaker_phone_on">Audio will play through your ear piece</string>
@@ -47,6 +46,7 @@
     <string name="hotline_message_short_message_title">Message Too Short</string>
     <string name="hotline_message_short_message">The message you are trying to send spans less than a second. Are you sure you want to send it ?</string>
     <string name="hotline_message_from_db">Message cannot be displayed. Please upgrade your app to view this message</string>
+	<string name="hotline_warning_multimedia_article_network_not_connected">Please connect to the internet to view the rich media content present in this FAQ</string>
 	<string name="hotline_error_no_matching_solution_articles_found">No matching solution articles found !</string>
 	<string name="hotline_menu_item_title_toggle_speaker">Toggle speakerphone</string>
 

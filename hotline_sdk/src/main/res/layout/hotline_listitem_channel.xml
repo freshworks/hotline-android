@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    style="@style/hotlineChannelListItemStyle">
+    style="?attr/hotlineChannelListItemStyle">
 
     <ImageView
         android:id="@+id/hotline_channel_icon"
@@ -14,27 +14,20 @@
 
     <TextView
         android:id="@+id/hotline_channel_icon_alt_text"
-        android:layout_width="@dimen/hotline_channel_icon_alt_view_size"
-        android:layout_height="@dimen/hotline_channel_icon_alt_view_size"
-        android:layout_centerVertical="true"
-        android:gravity="center"
-        android:visibility="gone"
-        android:textColor="@android:color/white"
-        android:background="@drawable/hotline_channel_alt_text_bg"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_margin="@dimen/hotline_channel_icon_padding" />
+        style="?attr/hotlineChannelAltIconStyle"
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/hotline_channel_last_updated"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:text="Nov 26, 12:45 PM"
-        android:visibility="gone"
-        android:layout_marginRight="8dp"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/hotline_channel_desc"
-        android:textAppearance="?attr/hotlineChannelLastUpdatedTextAppearance" />
+        android:layout_marginRight="8dp"
+        android:textAppearance="?attr/hotlineChannelLastUpdatedTextAppearance"
+        android:visibility="gone"
+        tools:text="Nov 26, 12:45 PM" />
 
     <TextView
         android:id="@+id/hotline_channel_unread_count"
@@ -72,6 +65,8 @@
         android:layout_alignRight="@+id/hotline_channel_name"
         android:layout_below="@+id/hotline_channel_name"
         android:maxLines="2"
+        android:lines="2"
+        android:gravity="center_vertical"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:paddingBottom="4dp"
