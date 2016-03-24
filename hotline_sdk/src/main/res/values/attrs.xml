@@ -20,7 +20,6 @@
 
     <!-- Misc Icons-->
     <attr name="hotlineAvatarIcon" format="reference" />
-    <attr name="hotlineUnreadCountIcon" format="reference" />
 
     <!-- Chat Bubbles -->
     <attr name="hotlineChatBubbleLeft" format="reference" />
@@ -59,6 +58,7 @@
     <attr name="hotlineChannelDescriptionTextAppearance" format="reference" />
     <attr name="hotlineChannelLastUpdatedTextAppearance" format="reference" />
     <attr name="hotlineChannelUnreadCountTextAppearance" format="reference" />
+    <attr name="hotlineChannelListEmptyWarningTextAppearance" format="reference" />
 
     <!-- Message List Item Customizations -->
     <!-- Style for the message list view -->

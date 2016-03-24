@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Notification Icon Size -->
-    <dimen name="hotline_notification_large_icon_size">24dp</dimen>
+    <dimen name="hotline_notification_large_icon_size">40dp</dimen>
 
     <!-- Icon Sizes -->
     <dimen name="hotline_default_icon_size">44dp</dimen>
@@ -35,7 +35,7 @@
 
     <!-- Channel Icon Dimens -->
     <dimen name="hotline_channel_icon_size">72dp</dimen>
-    <dimen name="hotline_channel_icon_padding">12dp</dimen>
+    <dimen name="hotline_channel_icon_padding">8dp</dimen>
     <dimen name="hotline_channel_icon_alt_view_size">48dp</dimen>
 
     <!-- FAQ Category Icon Dimens -->

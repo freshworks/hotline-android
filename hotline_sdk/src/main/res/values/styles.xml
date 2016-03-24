@@ -102,13 +102,12 @@
 
     <style name="Widget.Hotline.ChannelListItem">
         <item name="android:background">?attr/selectableItemBackground</item>
-        <item name="android:paddingTop">10dp</item>
+        <item name="android:padding">8dp</item>
     </style>
 
     <style name="Widget.Hotline.ChannelAltIcon">
         <item name="android:layout_height">@dimen/hotline_channel_icon_alt_view_size</item>
         <item name="android:layout_width">@dimen/hotline_channel_icon_alt_view_size</item>
-        <item name="android:layout_centerVertical">true</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:background">@drawable/hotline_channel_alt_text_bg</item>
@@ -116,9 +115,28 @@
         <item name="android:layout_margin">@dimen/hotline_channel_icon_padding</item>
     </style>
 
-    <style name="TextAppearance.Hotline.ChannelName" parent="TextAppearance.Hotline.Large">
+    <style name="Widget.Hotline.ChannelName">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/hotline_channel_name_max_lines</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="Widget.Hotline.ChannelDescription">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/hotline_channel_desc_max_lines</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.ChannelName" parent="TextAppearance.Hotline.Medium">
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="TextAppearance.Hotline.ChannelDescription" parent="TextAppearance.Hotline.Medium">
@@ -129,10 +147,12 @@
         <item name="android:textSize">12sp</item>
     </style>
 
-    <style name="TextAppearance.Hotline.ChannelUnreadCount" parent="TextAppearance.Hotline.Medium"></style>
+    <style name="TextAppearance.Hotline.ChannelUnreadCount" parent="TextAppearance.Hotline.Medium">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
 
-
-
+    <style name="TextAppearance.Hotline.ChannelListEmptyText" parent="TextAppearance.Hotline.Medium"></style>
     <!-- FAQ Category Styling & Customizations -->
 
     <style name="Widget.Hotline.CategoryListItem">

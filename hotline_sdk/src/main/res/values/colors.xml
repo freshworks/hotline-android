@@ -13,6 +13,12 @@
     <!-- Message reply edit text view hint text color -->
     <color name="hotline_message_reply_hint_text">#606060</color>
 
+    <!-- Message unread count bubble background in channel list screen -->
+    <color name="hotline_channel_unread_count_bg">#D32F2F</color>
+
+    <!-- Notification accent color i.e Notification#color (small icon background) Note: Works only in Android 5.0+ -->
+    <color name="hotline_notification_accent_color">@android:color/transparent</color>
+
     <!-- Divider colors -->
     <!-- Divider between each item in the article list -->
     <color name="hotline_article_list_divider">#C7C7C7</color>

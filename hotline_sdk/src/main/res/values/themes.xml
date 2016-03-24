@@ -20,7 +20,6 @@
 
         <!-- Misc Icons-->
         <item name="hotlineAvatarIcon">@null</item>
-        <item name="hotlineUnreadCountIcon">@drawable/hotline_ic_unread_count</item>
         <item name="hotlineContactUsIcon">@drawable/hotline_ic_action_contact_us</item>
 
         <!-- Chat Bubbles -->
@@ -56,6 +55,7 @@
         <item name="hotlineChannelDescriptionTextAppearance">@style/TextAppearance.Hotline.ChannelDescription</item>
         <item name="hotlineChannelLastUpdatedTextAppearance">@style/TextAppearance.Hotline.ChannelLastUpdated</item>
         <item name="hotlineChannelUnreadCountTextAppearance">@style/TextAppearance.Hotline.ChannelUnreadCount</item>
+        <item name="hotlineChannelListEmptyWarningTextAppearance">@style/TextAppearance.Hotline.ChannelListEmptyText</item>
 
         <!-- FAQ Category Widget Styles -->
         <item name="hotlineCategoryListItemStyle">@style/Widget.Hotline.CategoryListItem</item>
@@ -100,7 +100,6 @@
 
         <!-- Misc Icons-->
         <item name="hotlineAvatarIcon">@null</item>
-        <item name="hotlineUnreadCountIcon">@drawable/hotline_ic_unread_count</item>
         <item name="hotlineContactUsIcon">@drawable/hotline_ic_action_contact_us</item>
 
         <!-- Chat Bubbles -->
@@ -136,6 +135,7 @@
         <item name="hotlineChannelDescriptionTextAppearance">@style/TextAppearance.Hotline.ChannelDescription</item>
         <item name="hotlineChannelLastUpdatedTextAppearance">@style/TextAppearance.Hotline.ChannelLastUpdated</item>
         <item name="hotlineChannelUnreadCountTextAppearance">@style/TextAppearance.Hotline.ChannelUnreadCount</item>
+        <item name="hotlineChannelListEmptyWarningTextAppearance">@style/TextAppearance.Hotline.ChannelListEmptyText</item>
 
         <!-- FAQ Category Widget Styles -->
         <item name="hotlineCategoryListItemStyle">@style/Widget.Hotline.CategoryListItem</item>

@@ -8,11 +8,12 @@
 	<string name="hotline_label_deeplink_article">View Solution</string>
 	<string name="hotline_label_picture_capture_from_camera">Take a picture</string>
 	<string name="hotline_label_picture_pick_from_gallery">Upload from gallery</string>
-	<string name="hotline_error_message_no_network_conneciton">No network connection found</string>
+	<string name="hotline_error_message_no_network_connection">Unable to connect to the internet</string>
 	<string name="hotline_content_description_upload_status">upload_status</string>
 
 	<string name="hotline_category_list_empty_message">There are no FAQs available</string>
 	<string name="hotline_article_list_empty_message">There are no FAQs available</string>
+	<string name="hotline_channel_list_empty_message">There are no message channels available</string>
 	<string name="hotline_label_support_solutions_list_label">FAQs</string>
 	<string name="hotline_message_vote_successful">Thank you for your Feedback!</string>
 	<string name="hotline_solutions_vote_prompt">Was this solution helpful?</string>
