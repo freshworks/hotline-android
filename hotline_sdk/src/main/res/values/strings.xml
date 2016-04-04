@@ -5,7 +5,7 @@
 	<string name="hotline_label_downloading">Downloading...</string>
 	<string name="hotline_label_recording">Recording</string>
 	<string name="hotline_label_deeplink">View</string>
-	<string name="hotline_label_deeplink_article">View Solution</string>
+	<string name="hotline_label_deeplink_article">View FAQ</string>
 	<string name="hotline_label_picture_capture_from_camera">Take a picture</string>
 	<string name="hotline_label_picture_pick_from_gallery">Upload from gallery</string>
 	<string name="hotline_error_message_no_network_connection">Unable to connect to the internet</string>
