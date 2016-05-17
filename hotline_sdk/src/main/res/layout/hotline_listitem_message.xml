@@ -66,7 +66,7 @@
                 android:src="?attr/hotlinePlayIcon"
                 android:visibility="gone" />
 
-            <com.demach.konotor.layout.MediaProgressBar
+            <com.freshdesk.hotline.ui.MediaSeekBar
                 android:id="@+id/hotline_message_voice_play_progress"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

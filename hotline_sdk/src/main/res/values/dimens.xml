@@ -15,9 +15,6 @@
     <dimen name="hotline_message_attach_icon_size">@dimen/hotline_default_icon_size</dimen>
     <dimen name="hotline_message_attach_icon_padding">@dimen/hotline_default_icon_padding</dimen>
 
-    <dimen name="hotline_message_cancel_icon_size">@dimen/hotline_default_icon_size</dimen>
-    <dimen name="hotline_message_cancel_icon_padding">@dimen/hotline_default_icon_padding</dimen>
-
     <dimen name="hotline_message_upload_status_icon_size">16dp</dimen>
     <dimen name="hotline_message_upload_status_icon_padding">@dimen/hotline_default_icon_padding</dimen>
 
