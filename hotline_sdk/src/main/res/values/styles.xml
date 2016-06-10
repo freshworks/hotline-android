@@ -229,7 +229,7 @@
     <!-- Common -->
 
     <style name="TextAppearance.Hotline.ContactUs" parent="TextAppearance.Hotline.Medium">
-        <item name="android:textSize">22sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
 

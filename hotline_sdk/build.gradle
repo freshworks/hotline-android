@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 10
         targetSdkVersion 22
-        versionCode 1010
-        versionName "1.0.9"
+        versionCode 1011
+        versionName "1.0.10"
         consumerProguardFiles 'consumer-proguard-rules.pro'
     }
     buildTypes {
@@ -26,5 +26,4 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.2.1'
     compile 'com.android.support:recyclerview-v7:22.2.1'
     compile 'com.google.code.gson:gson:2.3.1'
-    compile 'com.google.android.gms:play-services-gcm:7.8.0'
 }

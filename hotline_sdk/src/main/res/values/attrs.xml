@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- UI Customization Config Attrs -->
-    <attr name="hotlineDisplayCategoryAsGrid" format="boolean" />
-
     <!-- Action Icons -->
     <attr name="hotlinePlayIcon" format="reference" />
     <attr name="hotlineStopIcon" format="reference" />

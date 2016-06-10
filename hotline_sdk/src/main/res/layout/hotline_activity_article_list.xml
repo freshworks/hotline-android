@@ -19,7 +19,7 @@
         android:visibility="gone" />
 
     <android.support.v4.widget.ContentLoadingProgressBar
-        android:id="@+id/clprogressbar"
+        android:id="@+id/hotline_article_list_cl_progressbar"
         style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

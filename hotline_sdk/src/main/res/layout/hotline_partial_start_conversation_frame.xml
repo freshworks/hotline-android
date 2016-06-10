@@ -9,8 +9,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="?attr/hotlineContactUsIcon"
-        android:padding="16dp"
+        android:padding="8dp"
         android:text="@string/hotline_label_contactus"
         android:textAppearance="?attr/hotlineContactUsTextAppearance" />
+
 </LinearLayout>
