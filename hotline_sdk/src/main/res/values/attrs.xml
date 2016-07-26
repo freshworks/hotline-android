@@ -26,6 +26,7 @@
     <attr name="hotlineVoiceVisualizer" format="reference" />
     <attr name="hotlineVoiceMessageSeekbar" format="reference" />
     <attr name="hotlineVoiceMessageSeekbarThumb" format="reference" />
+    <attr name="hotlineActionSelectableItemBackground" format="reference" />
 
     <!-- Text Appearance Customizations - Common -->
     <attr name="hotlineContactUsTextAppearance" format="reference" />
@@ -44,6 +45,7 @@
     <attr name="hotlineArticleListEmptyWarningTextAppearance" format="reference" />
 
     <!-- Article Detail Customizations -->
+    <attr name="hotlineArticleVotingPromptBackground" format="reference" />
     <attr name="hotlineArticleVotingPromptTextStyle" format="reference" />
     <attr name="hotlineArticleUpvoteStyle" format="reference" />
     <attr name="hotlineArticleDownvoteStyle" format="reference" />

@@ -12,6 +12,7 @@
         <item name="hotlineCancelIcon">@drawable/hotline_ic_cancel</item>
         <item name="hotlineAttachIcon">@drawable/hotline_ic_attach</item>
         <item name="hotlineRecordIcon">@drawable/hotline_ic_record</item>
+        <item name="hotlineActionSelectableItemBackground">?attr/selectableItemBackground</item>
 
         <!-- ActionBar Menu Icons -->
         <item name="hotlineSearchIcon">@drawable/hotline_ic_action_search_light</item>
@@ -78,6 +79,7 @@
         <item name="hotlineArticleUpvoteStyle">@style/Widget.Hotline.ArticleUpvoteButton</item>
         <item name="hotlineArticleDownvoteStyle">@style/Widget.Hotline.ArticleDownvoteButton</item>
         <item name="hotlineArticleVotingPromptTextStyle">@style/Widget.Hotline.ArticleVotingPromptText</item>
+        <item name="hotlineArticleVotingPromptBackground">?android:attr/windowBackground</item>
 
         <!-- Misc Styles -->
         <item name="hotlineContactUsTextAppearance">@style/TextAppearance.Hotline.ContactUs</item>
@@ -92,6 +94,7 @@
         <item name="hotlineCancelIcon">@drawable/hotline_ic_cancel</item>
         <item name="hotlineAttachIcon">@drawable/hotline_ic_attach</item>
         <item name="hotlineRecordIcon">@drawable/hotline_ic_record</item>
+        <item name="hotlineActionSelectableItemBackground">?attr/selectableItemBackground</item>
 
         <!-- Menu Icons -->
         <item name="hotlineSearchIcon">@drawable/hotline_ic_action_search_dark</item>
@@ -158,6 +161,7 @@
         <item name="hotlineArticleUpvoteStyle">@style/Widget.Hotline.ArticleUpvoteButton</item>
         <item name="hotlineArticleDownvoteStyle">@style/Widget.Hotline.ArticleDownvoteButton</item>
         <item name="hotlineArticleVotingPromptTextStyle">@style/Widget.Hotline.ArticleVotingPromptText</item>
+        <item name="hotlineArticleVotingPromptBackground">?android:attr/windowBackground</item>
 
         <!-- Misc Styles -->
         <item name="hotlineContactUsTextAppearance">@style/TextAppearance.Hotline.ContactUs</item>

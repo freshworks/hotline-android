@@ -2,10 +2,10 @@
 <resources>
 
     <!-- Message list view background color -->
-    <color name="hotline_message_list_bg">#EFEFEF</color>
+    <color name="hotline_message_list_bg">#F0F2F4</color>
 
     <!-- Message list item background color -->
-    <color name="hotline_message_list_item_bg">#EFEFEF</color>
+    <color name="hotline_message_list_item_bg">@null</color>
 
     <!-- Message reply edit text view text color -->
     <color name="hotline_message_reply_text">#252525</color>
@@ -19,6 +19,12 @@
     <!-- Notification accent color i.e Notification#color (small icon background) Note: Works only in Android 5.0+ -->
     <color name="hotline_notification_accent_color">@android:color/transparent</color>
 
+    <!-- Background color for voting view in FAQ Detail -->
+    <color name="hotline_voting_view_bg">?android:attr/windowBackground</color>
+
+    <!-- Fallback background color for the faq voting view in FAQ detail page, if hotline_voting_view_bg was set to transparent -->
+    <color name="hotline_voting_view_bg_fallback">@color/hotline_background_grey</color>
+
     <!-- Divider colors -->
     <!-- Divider between each item in the article list -->
     <color name="hotline_article_list_divider">#C7C7C7</color>
@@ -27,7 +33,7 @@
     <color name="hotline_voting_view_divider">#BBB</color>
 
     <!-- Divider between each message item in the message list -->
-    <color name="hotline_message_list_divider">#EFEFEF</color>
+    <color name="hotline_message_list_divider">@null</color>
 
     <!-- Divider between message list and reply view -->
     <color name="hotline_message_list_reply_view_divider">#D0D0D0</color>

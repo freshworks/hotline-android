@@ -20,7 +20,6 @@
         <item name="android:dividerHeight">@dimen/hotline_message_lisitem_divider_height</item>
         <item name="android:stackFromBottom">true</item>
         <item name="android:transcriptMode">alwaysScroll</item>
-        <item name="android:paddingBottom">8dp</item>
     </style>
 
     <style name="Widget.Hotline.MessageListItem">
@@ -52,6 +51,8 @@
         <item name="android:layout_marginRight">@dimen/hotline_message_send_icon_size</item>
         <item name="android:maxLines">4</item>
         <item name="android:minHeight">48dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">6dp</item>
         <item name="android:textColor">@color/hotline_message_reply_text</item>
         <item name="android:textColorHint">@color/hotline_message_reply_hint_text</item>
         <item name="android:textSize">18sp</item>
@@ -118,8 +119,8 @@
     <style name="Widget.Hotline.ChannelName">
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">@integer/hotline_channel_name_max_lines</item>
-        <item name="android:paddingTop">2dp</item>
-        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
         <item name="android:paddingLeft">4dp</item>
         <item name="android:paddingRight">8dp</item>
     </style>

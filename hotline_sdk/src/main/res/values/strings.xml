@@ -24,6 +24,7 @@
 	<string name="hotline_label_article_downvote">No</string>
 	<string name="hotline_label_send_message">Send message</string>
     <string name="hotline_label_video_loading_message">Loading Video. Please Wait!</string>
+	<string name="hotline_label_picture_message_caption">Picture Message</string>
 
 	<!-- Hint for Input Fields -->
 	<string name="hotline_hint_compose_message">Type a message</string>

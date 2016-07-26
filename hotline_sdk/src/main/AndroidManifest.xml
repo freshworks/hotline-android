@@ -44,6 +44,7 @@
         <activity
             android:name="com.freshdesk.hotline.activity.PictureAttachmentActivity"
             android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize"
             android:theme="@style/Theme.Hotline.SelectedTheme" />
 
         <activity

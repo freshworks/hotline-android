@@ -11,7 +11,7 @@
         android:id="@+id/hotline_channel_icon"
         android:layout_width="@dimen/hotline_channel_icon_size"
         android:layout_height="@dimen/hotline_channel_icon_size"
-        android:padding="@dimen/hotline_channel_icon_padding" />
+        android:layout_margin="@dimen/hotline_channel_icon_padding" />
 
     <TextView
         android:id="@+id/hotline_channel_icon_alt_text"
@@ -32,7 +32,7 @@
             android:layout_alignBaseline="@+id/hotline_channel_name"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@+id/hotline_channel_name"
-            android:layout_marginRight="8dp"
+            android:layout_marginRight="0dp"
             android:gravity="center"
             android:textAppearance="?attr/hotlineChannelLastUpdatedTextAppearance"
             android:visibility="gone"

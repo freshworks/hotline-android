@@ -6,6 +6,24 @@
     <ImageView
         android:id="@+id/hotline_picture_viewer_image"
         android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/hotline_picture_attachment_divider"/>
+
+    <View
+        android:id="@+id/hotline_picture_attachment_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/hotline_conv_detail_text_reply_layout"
+        android:layout_alignWithParentIfMissing="true"
+        android:background="@color/hotline_message_list_reply_view_divider" />
+
+    <include
+        layout="@layout/hotline_partial_text_message_frame"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"/>
 </RelativeLayout>

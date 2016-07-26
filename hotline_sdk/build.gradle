@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 10
         targetSdkVersion 22
-        versionCode 1012
-        versionName "1.0.11"
+        versionCode 1013
+        versionName "1.0.12"
         consumerProguardFiles 'consumer-proguard-rules.pro'
     }
     buildTypes {

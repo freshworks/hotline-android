@@ -3,6 +3,7 @@
     android:id="@+id/hotline_conv_detail_text_reply_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
     android:minHeight="@dimen/hotline_message_reply_frame_min_height">
 
     <ImageView
@@ -11,7 +12,7 @@
         android:layout_height="@dimen/hotline_message_attach_icon_size"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:background="?attr/selectableItemBackground"
+        android:background="?attr/hotlineActionSelectableItemBackground"
         android:padding="@dimen/hotline_message_attach_icon_padding"
         android:contentDescription="@string/hotline_description_attach_image"
         android:src="?attr/hotlineAttachIcon" />
@@ -30,6 +31,7 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:padding="@dimen/hotline_message_send_icon_padding"
+        android:background="?attr/hotlineActionSelectableItemBackground"
         android:contentDescription="@string/hotline_description_voice_message"
         android:src="?attr/hotlineRecordIcon"
         android:visibility="visible" />
@@ -41,7 +43,7 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:padding="@dimen/hotline_message_send_icon_padding"
-        android:background="?attr/selectableItemBackground"
+        android:background="?attr/hotlineActionSelectableItemBackground"
         android:contentDescription="@string/hotline_description_send_message"
         android:src="?attr/hotlineSendIcon"
         android:visibility="gone" />

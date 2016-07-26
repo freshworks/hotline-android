@@ -38,7 +38,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/hotline_message_name"
-            android:padding="4dp" />
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" />
 
         <ImageView
             android:id="@+id/hotline_message_image"
