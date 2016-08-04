@@ -1,5 +1,5 @@
 ## Hotline Android SDK
-
+[![Twitter](https://img.shields.io/badge/twitter-@GetHotline-orange.svg?style=flat)](https://twitter.com/GetHotline)
 ### [Integration Guide](https://hotline.freshdesk.com/support/solutions/articles/9000037054-hotline-android-sdk-integration-steps)
 
 ##### Quick Steps
