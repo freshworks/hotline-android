@@ -28,6 +28,12 @@
 # Gson specific classes
 -keep class sun.misc.Unsafe { *; }
 
+# Proguard for Calligraphy
+# Keep calligraphy classes when calligraphy is included as a dependency
+-keep class uk.co.chrishenx.calligraphy.** { *; }
+# Ignore warning from proguard for calligraphy classes, when calligraphy is not included
+-dontwarn uk.co.chrishenx.calligraphy.**
+
 # Proguard config for AppCompat
 # Ref : https://code.google.com/p/android/issues/detail?id=78293
 -keep public class android.support.v7.widget.** { *; }
