@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/hotline_conv_detail_text_reply_layout"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:focusableInTouchMode="true"
-    android:minHeight="@dimen/hotline_message_reply_frame_min_height">
+    style="?attr/hotlineMessageReplyViewStyle"
+    android:focusableInTouchMode="true">
 
     <ImageView
         android:id="@+id/hotline_conv_detail_attach_image"

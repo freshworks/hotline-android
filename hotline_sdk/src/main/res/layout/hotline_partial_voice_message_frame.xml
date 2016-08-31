@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:id="@+id/hotline_conv_detail_voice_reply_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:minHeight="@dimen/hotline_message_reply_frame_min_height">
+    style="?attr/hotlineMessageReplyViewStyle">
 
     <TextView
         android:id="@+id/hotline_conv_detail_voice_reply_time_elapsed_text"

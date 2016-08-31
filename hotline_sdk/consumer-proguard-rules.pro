@@ -19,6 +19,10 @@
 -keep class com.freshdesk.hotline.** { *; }
 -keep class com.demach.konotor.** { *; }
 
+# Rules to keep the FCM dependency optional
+-dontwarn com.google.firebase.messaging.RemoteMessage
+-keep class com.google.firebase.messaging.RemoteMessage
+
 # Proguard config for GSON
 # Ref : https://google-gson.googlecode.com/svn/trunk/examples/android-proguard-example/proguard.cfg
 # Gson uses generic type information stored in a class file when working with fields. Proguard

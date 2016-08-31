@@ -7,6 +7,9 @@
     <!-- Message list item background color -->
     <color name="hotline_message_list_item_bg">@null</color>
 
+    <!-- Message reply view background color -->
+    <color name="hotline_message_reply_view_bg">@null</color>
+
     <!-- Message reply edit text view text color -->
     <color name="hotline_message_reply_text">#252525</color>
 

@@ -65,6 +65,8 @@
     <!-- Style for the each of the items in the message list -->
     <attr name="hotlineMessageListItemStyle" format="reference" />
     <attr name="hotlineMessageDeepLinkStyle" format="reference" />
+    <!-- Style for the message reply view -->
+    <attr name="hotlineMessageReplyViewStyle" format="reference" />
     <attr name="hotlineMessageReplyEditTextViewStyle" format="reference" />
 
     <attr name="hotlineAgentNameTextAppearance" format="reference" />

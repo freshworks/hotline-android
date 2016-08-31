@@ -58,6 +58,13 @@
         <item name="android:textSize">18sp</item>
     </style>
 
+    <style name="Widget.Hotline.MessageReplyView">
+        <item name="android:background">@color/hotline_message_reply_view_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/hotline_message_reply_frame_min_height</item>
+    </style>
+
     <style name="TextAppearance.Hotline.AgentName" parent="TextAppearance.Hotline.Small">
         <item name="android:textColor">@color/hotline_text_color</item>
     </style>
@@ -154,6 +161,8 @@
     </style>
 
     <style name="TextAppearance.Hotline.ChannelListEmptyText" parent="TextAppearance.Hotline.Medium"></style>
+
+
     <!-- FAQ Category Styling & Customizations -->
 
     <style name="Widget.Hotline.CategoryListItem">

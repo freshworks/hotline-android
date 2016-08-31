@@ -35,6 +35,7 @@
         <!-- Message Widget Styles -->
         <item name="hotlineMessageListStyle">@style/Widget.Hotline.MessageList</item>
         <item name="hotlineMessageListItemStyle">@style/Widget.Hotline.MessageListItem</item>
+        <item name="hotlineMessageReplyViewStyle">@style/Widget.Hotline.MessageReplyView</item>
         <item name="hotlineMessageDeepLinkStyle">@style/Widget.Hotline.MessageDeepLinkButton</item>
         <item name="hotlineMessageReplyEditTextViewStyle">@style/Widget.Hotline.MessageReplyEditText</item>
         <item name="hotlineConversationBannerMessageStyle">@style/Widget.Hotline.ConversationBannerMessage</item>
@@ -117,6 +118,7 @@
         <!-- Message Widget Styles -->
         <item name="hotlineMessageListStyle">@style/Widget.Hotline.MessageList</item>
         <item name="hotlineMessageListItemStyle">@style/Widget.Hotline.MessageListItem</item>
+        <item name="hotlineMessageReplyViewStyle">@style/Widget.Hotline.MessageReplyView</item>
         <item name="hotlineMessageDeepLinkStyle">@style/Widget.Hotline.MessageDeepLinkButton</item>
         <item name="hotlineMessageReplyEditTextViewStyle">@style/Widget.Hotline.MessageReplyEditText</item>
         <item name="hotlineConversationBannerMessageStyle">@style/Widget.Hotline.ConversationBannerMessage</item>
