@@ -1,6 +1,6 @@
 ## Hotline Android SDK
 [![Twitter](https://img.shields.io/badge/twitter-@GetHotline-orange.svg?style=flat)](https://twitter.com/GetHotline)
-### [Integration Guide](https://hotline.freshdesk.com/support/solutions/articles/9000037054-hotline-android-sdk-integration-steps)
+### [Integration Guide](http://support.hotline.io/support/solutions/folders/271861)
 
 ##### Quick Steps
 Project gradle file **build.gradle**
