@@ -16,9 +16,6 @@
     <!-- Can be removed/negated if voice messaging is disabled -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <!-- Google GCM Permissions -->
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-
     <!-- Keeps the processor from sleeping when a message is received. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
@@ -69,10 +66,13 @@
 
         <receiver android:name="com.freshdesk.hotline.receiver.HotlineReceiver">
             <intent-filter>
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-            </intent-filter>
-            <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.freshdesk.hotline.receiver.HotlineNetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
 

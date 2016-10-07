@@ -8,7 +8,7 @@
 	<string name="hotline_label_picture_capture_from_camera">Take a picture</string>
 	<string name="hotline_label_picture_pick_from_gallery">Upload from gallery</string>
 	<string name="hotline_error_message_no_network_connection">Unable to connect to the internet</string>
-	<string name="hotline_content_description_upload_status">upload_status</string>
+	<string name="hotline_content_description_upload_status">Upload Status</string>
 
 	<string name="hotline_category_list_empty_message">There are no FAQs available</string>
 	<string name="hotline_article_list_empty_message">There are no FAQs available</string>
