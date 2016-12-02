@@ -17,8 +17,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/hotline_conv_detail_divider"
-        android:layout_below="@+id/hotline_conversation_banner_message_text"
-        android:layout_alignWithParentIfMissing="true" />
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/hotline_conversation_banner_message_text" />
 
     <View
         android:id="@+id/hotline_conv_detail_divider"
@@ -35,14 +35,26 @@
         android:layout_above="@+id/hotline_conv_detail_voice_reply_layout"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_alignWithParentIfMissing="true" />
+        android:layout_alignWithParentIfMissing="true"
+        android:visibility="gone" />
 
     <include
         layout="@layout/hotline_partial_voice_message_frame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/hotline_chat_resolution_confirmation_layout"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/hotline_partial_chat_resolution_confirmation_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" />
 
 </RelativeLayout>

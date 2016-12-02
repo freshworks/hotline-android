@@ -62,5 +62,12 @@
 	<string name="hotline_menu_item_title_contact_us">Contact Us</string>
 	<string name="hotline_hint_solutions_search_query_hint">Search our knowledge base</string>
 
+	<!-- Strings for Customer Satisfaction related UI Elements -->
+	<string name="hotline_label_chat_resolution_positive">@string/hotline_label_yes</string>
+	<string name="hotline_label_chat_resolution_negative">@string/hotline_label_no</string>
+	<string name="hotline_label_chat_resolution_prompt">Did we address your concerns?</string>
+	<string name="hotline_label_chat_not_resolved_prompt">How could we have helped better?</string>
+	<string name="hotline_hint_cust_sat_user_comments_hint">Enter your comments here</string>
+	<string name="hotline_label_cust_sat_submit_btn">Submit</string>
 
 </resources>

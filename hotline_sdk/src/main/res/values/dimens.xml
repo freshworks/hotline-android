@@ -26,6 +26,8 @@
 
     <dimen name="hotline_message_lisitem_divider_height">0dp</dimen>
 
+    <dimen name="hotline_chat_resolution_prompt_divider_height">1dp</dimen>
+
     <dimen name="hotline_message_reply_frame_min_height">48dp</dimen>
     <dimen name="hotline_message_bubble_margin">4dp</dimen>
     <dimen name="hotline_message_bubble_padding">2dp</dimen>

@@ -40,6 +40,7 @@
 
     <!-- Divider between message list and reply view -->
     <color name="hotline_message_list_reply_view_divider">#D0D0D0</color>
+    <color name="hotline_chat_resolution_prompt_divider">#BBB</color>
 
     <!-- Misc Colors -->
     <color name="hotline_background_grey">#696969</color>
