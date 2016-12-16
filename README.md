@@ -16,7 +16,7 @@ allprojects {
 App Module gradle file **(app/build.gradle)**
 ```
 dependencies {
-    compile 'com.github.freshdesk:hotline-android:1.0.+'
+    compile 'com.github.freshdesk:hotline-android:1.1.+'
 }
 ```
 
