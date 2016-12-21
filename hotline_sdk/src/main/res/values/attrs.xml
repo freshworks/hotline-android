@@ -85,6 +85,7 @@
 
     <!-- Customer Survey Dialog Customizations -->
     <attr name="hotlineCustomerSurveryDialog" format="reference" />
+    <attr name="hotlineCustomerSurveryQuestionStyle" format="reference" />
     <attr name="hotlineCustomerSurveryRatingBarStyle" format="reference" />
     <attr name="hotlineCustomerSurveryCommentsEditTextStyle" format="reference" />
 

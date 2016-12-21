@@ -32,7 +32,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:text">@string/hotline_label_deeplink</item>
         <item name="android:ellipsize">end</item>
-        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
         <item name="android:layout_marginTop">4dp</item>
         <item name="android:layout_marginBottom">4dp</item>
         <item name="android:layout_marginLeft">20dp</item>
@@ -150,28 +150,44 @@
 
     <!-- Customer Survey Dialog Customizations -->
 
+    <style name="Widget.Hotline.CustomerSurveryQuestionStyle">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">@integer/hotline_custsat_question_max_lines</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.Hotline</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
     <style name="Widget.Hotline.CustomerSurveryCommentsEditText" parent="Widget.AppCompat.EditText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">16dp</item>
         <item name="android:layout_marginRight">16dp</item>
-        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginTop">0dp</item>
         <item name="android:layout_marginBottom">4dp</item>
         <item name="android:maxLines">3</item>
         <item name="android:hint">@string/hotline_hint_cust_sat_user_comments_hint</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="Widget.Hotline.CustomerSurveryRatingBar" parent="Widget.AppCompat.RatingBar">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
 
 
     <style name="Widget.Hotline.CustomerSurveryDialog.Light" parent="Theme.AppCompat.Light.Dialog.Alert">
-        <!-- Dialog title style -->
-        <item name="android:windowTitleStyle">@style/Widget.Hotline.CustomerSurveryDialog.TitleStyle</item>
         <!-- Action button text color -->
         <!--<item name="colorAccent">@color/holo_orange_dark</item>-->
         <!-- Dialog background-->
@@ -184,8 +200,6 @@
     </style>
 
     <style name="Widget.Hotline.CustomerSurveryDialog" parent="Theme.AppCompat.Dialog.Alert">
-        <!-- Dialog title style -->
-        <item name="android:windowTitleStyle">@style/Widget.Hotline.CustomerSurveryDialog.TitleStyle</item>
         <!-- Action button text color -->
         <!--<item name="colorAccent">@color/holo_orange_dark</item>-->
         <!-- Dialog background-->
@@ -199,12 +213,6 @@
     <!--<style name="ButtonBarStyle" parent="@style/Widget.AppCompat.ButtonBar.AlertDialog" />-->
 
     <!--<style name="BorderlessButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless" />-->
-
-    <style name="Widget.Hotline.CustomerSurveryDialog.TitleStyle" parent="@style/RtlOverlay.DialogWindowTitle.AppCompat">
-        <!--<item name="android:textColor">#FFEB3B</item>-->
-        <!--<item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>-->
-        <item name="android:gravity">center</item>
-    </style>
 
 
     <!-- Channel Styling & Customizations -->

@@ -56,6 +56,7 @@
 
         <!-- Customer Survey Dialog Styles -->
         <item name="hotlineCustomerSurveryDialog">@style/Widget.Hotline.CustomerSurveryDialog.Light</item>
+        <item name="hotlineCustomerSurveryQuestionStyle">@style/Widget.Hotline.CustomerSurveryQuestionStyle</item>
         <item name="hotlineCustomerSurveryRatingBarStyle">@style/Widget.Hotline.CustomerSurveryRatingBar</item>
         <item name="hotlineCustomerSurveryCommentsEditTextStyle">@style/Widget.Hotline.CustomerSurveryCommentsEditText</item>
 
@@ -150,6 +151,7 @@
 
         <!-- Customer Survey Dialog Styles -->
         <item name="hotlineCustomerSurveryDialog">@style/Widget.Hotline.CustomerSurveryDialog.Light</item>
+        <item name="hotlineCustomerSurveryQuestionStyle">@style/Widget.Hotline.CustomerSurveryQuestionStyle</item>
         <item name="hotlineCustomerSurveryRatingBarStyle">@style/Widget.Hotline.CustomerSurveryRatingBar</item>
         <item name="hotlineCustomerSurveryCommentsEditTextStyle">@style/Widget.Hotline.CustomerSurveryCommentsEditText</item>
 
