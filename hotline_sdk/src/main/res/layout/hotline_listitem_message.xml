@@ -43,6 +43,14 @@
             android:paddingLeft="4dp"
             android:paddingRight="4dp" />
 
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/hotline_message_loading_progress_bar"
+            style="?attr/hotlineProgressBarStyle"
+            android:visibility="gone"/>
+
         <ImageView
             android:id="@+id/hotline_message_image"
             android:layout_width="wrap_content"
@@ -50,9 +58,7 @@
             android:layout_below="@+id/hotline_message_text"
             android:layout_centerHorizontal="true"
             android:adjustViewBounds="true"
-            android:maxHeight="200dp"
-            android:maxWidth="300dp"
-            android:padding="8dp"
+            android:padding="4dp"
             android:visibility="gone" />
 
         <RelativeLayout

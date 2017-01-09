@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/hotline_conv_detail_recycler_view"
+        android:id="@+id/hotline_activity_category_list_recycler_view"
+        style="?attr/hotlineCategoryListStyle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/hotline_contact_us_group"
-        android:scrollbars="vertical"/>
+        android:layout_above="@+id/hotline_contact_us_group" />
 
     <include
         android:id="@+id/empty"

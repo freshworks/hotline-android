@@ -13,9 +13,10 @@
 	<string name="hotline_category_list_empty_message">There are no FAQs available</string>
 	<string name="hotline_article_list_empty_message">There are no FAQs available</string>
 	<string name="hotline_channel_list_empty_message">There are no message channels available</string>
+	<string name="hotline_solutions_reload_and_redirect">FAQs updated. Redirecting...</string>
 	<string name="hotline_label_support_solutions_list_label">FAQs</string>
 	<string name="hotline_message_vote_successful">Thank you for your Feedback!</string>
-	<string name="hotline_solutions_vote_prompt">Was this solution helpful?</string>
+	<string name="hotline_solutions_vote_prompt">Was this FAQ helpful?</string>
 
 	<!-- Label text for UI elements -->
 	<string name="hotline_label_yes">Yes</string>
@@ -24,7 +25,7 @@
 	<string name="hotline_label_article_downvote">No</string>
 	<string name="hotline_label_send_message">Send message</string>
     <string name="hotline_label_video_loading_message">Loading Video. Please Wait!</string>
-	<string name="hotline_label_picture_message_caption">Picture Message</string>
+	<string name="hotline_label_picture_message_caption">[Photo]</string>
 
 	<!-- Hint for Input Fields -->
 	<string name="hotline_hint_compose_message">Type a message</string>
@@ -35,9 +36,10 @@
 	<string name="hotline_description_send_message">Send message</string>
     <string name="hotline_label_contactus">Contact Us</string>
 	<string name="hotline_label_myconversations">My Conversations</string>
-	<string name="hotline_label_voice_message">Voice Message</string>
+	<string name="hotline_label_voice_message">[Audio ({{duration}})]</string>
+	<string name="hotline_label_voice_message_duration_tag">{{duration}}</string>
 
-	<string name="hotline_message_failed_to_load_solution_article">Unable to load this article</string>
+	<string name="hotline_message_failed_to_load_solution_article">Unable to load this FAQ</string>
 	<string name="hotline_message_speaker_phone_on">Audio will play through your ear piece</string>
 	<string name="hotline_message_speaker_phone_off">"Audio will play through your phone's speaker"</string>
     <string name="hotline_message_retry_message">Could not send message. Will try again later</string>
@@ -49,7 +51,8 @@
     <string name="hotline_message_from_db">Message cannot be displayed. Please upgrade your app to view this message</string>
 	<string name="hotline_warning_voice_message_duration_limit_reached">Reached voice message max duration limit, please release to send the message, otherwise message will get discarded soon</string>
 	<string name="hotline_warning_multimedia_article_network_not_connected">Please connect to the internet to view the rich media content present in this FAQ</string>
-	<string name="hotline_error_no_matching_solution_articles_found">No matching solution articles found !</string>
+	<string name="hotline_error_no_matching_solution_articles_found">No matching FAQs found !</string>
+	<string name="hotline_error_no_matching_solution_categories_found">No matching FAQ categories found !</string>
 	<string name="hotline_menu_item_title_toggle_speaker">Toggle speakerphone</string>
 
 	<!-- Activity Title -->
@@ -60,7 +63,7 @@
 
 	<string name="hotline_menu_item_title_search_solutions">Search</string>
 	<string name="hotline_menu_item_title_contact_us">Contact Us</string>
-	<string name="hotline_hint_solutions_search_query_hint">Search our knowledge base</string>
+	<string name="hotline_hint_solutions_search_query_hint">Search FAQs</string>
 
 	<!-- Strings for Customer Satisfaction related UI Elements -->
 	<string name="hotline_label_chat_resolution_positive">@string/hotline_label_yes</string>

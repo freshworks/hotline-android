@@ -23,6 +23,7 @@
     <attr name="hotlineChatBubbleRight" format="reference" />
 
     <!-- Misc -->
+    <attr name="hotlineProgressBarStyle" format="reference" />
     <attr name="hotlineVoiceVisualizer" format="reference" />
     <attr name="hotlineVoiceMessageSeekbar" format="reference" />
     <attr name="hotlineVoiceMessageSeekbarThumb" format="reference" />
@@ -32,6 +33,10 @@
     <attr name="hotlineContactUsTextAppearance" format="reference" />
 
     <!-- FAQ Category List Item Customizations -->
+    <!-- Style for the category list view -->
+    <attr name="hotlineCategoryListStyle" format="reference" />
+
+    <!-- Style for the each of the items in the category list -->
     <attr name="hotlineCategoryListItemStyle" format="reference" />
     <attr name="hotlineCategoryNameTextAppearance" format="reference" />
     <attr name="hotlineCategoryDescriptionTextAppearance" format="reference" />
@@ -51,6 +56,10 @@
     <attr name="hotlineArticleDownvoteStyle" format="reference" />
 
     <!-- Message Channel Item Customizations -->
+    <!-- Style for the channel list view -->
+    <attr name="hotlineChannelListStyle" format="reference" />
+
+    <!-- Style for the each of the items in the channel list -->
     <attr name="hotlineChannelListItemStyle" format="reference" />
     <attr name="hotlineChannelAltIconStyle" format="reference" />
     <attr name="hotlineChannelNameTextAppearance" format="reference" />
@@ -89,7 +98,7 @@
     <attr name="hotlineCustomerSurveryRatingBarStyle" format="reference" />
     <attr name="hotlineCustomerSurveryCommentsEditTextStyle" format="reference" />
 
-    <!-- Misc - Conversaation Detail Screen -->
+    <!-- Misc - Conversation Detail Screen -->
     <attr name="hotlineConversationBannerMessageStyle" format="reference" />
 
 </resources>

@@ -217,6 +217,10 @@
 
     <!-- Channel Styling & Customizations -->
 
+    <style name="Widget.Hotline.ChannelList">
+        <item name="android:background">@null</item>
+    </style>
+
     <style name="Widget.Hotline.ChannelListItem">
         <item name="android:background">?attr/selectableItemBackground</item>
         <item name="android:padding">8dp</item>
@@ -271,8 +275,18 @@
 
     <style name="TextAppearance.Hotline.ChannelListEmptyText" parent="TextAppearance.Hotline.Medium"></style>
 
+    <style name="Widget.Hotline.ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <!--Progress bar drawable-->
+        <!--<item name="android:indeterminate">true</item>-->
+        <!--<item name="android:indeterminateDrawable">@drawable/progress_bar_drawable</item>-->
+    </style>
 
     <!-- FAQ Category Styling & Customizations -->
+
+    <style name="Widget.Hotline.CategoryList">
+        <item name="android:background">@null</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
 
     <style name="Widget.Hotline.CategoryListItem">
         <item name="android:background">?attr/selectableItemBackground</item>

@@ -7,14 +7,16 @@
 
     <ListView
         android:id="@+id/hotline_activity_channel_list_listview"
+        style="?attr/hotlineChannelListStyle"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
     <include
         android:id="@+id/hotline_activity_channel_list_empty_view"
         layout="@layout/hotline_partial_channel_list_empty_frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 
     <ProgressBar
         android:id="@+id/hotline_activity_channel_list_progressbar"
@@ -22,5 +24,5 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:indeterminate="true"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 </RelativeLayout>

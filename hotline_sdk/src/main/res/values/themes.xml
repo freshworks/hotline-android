@@ -39,6 +39,7 @@
         <item name="hotlineMessageDeepLinkStyle">@style/Widget.Hotline.MessageDeepLinkButton</item>
         <item name="hotlineMessageReplyEditTextViewStyle">@style/Widget.Hotline.MessageReplyEditText</item>
         <item name="hotlineConversationBannerMessageStyle">@style/Widget.Hotline.ConversationBannerMessage</item>
+        <item name="hotlineProgressBarStyle">@style/Widget.Hotline.ProgressBar</item>
 
         <!-- Message Text Styles -->
         <item name="hotlineAgentNameTextAppearance">@style/TextAppearance.Hotline.AgentName</item>
@@ -61,6 +62,7 @@
         <item name="hotlineCustomerSurveryCommentsEditTextStyle">@style/Widget.Hotline.CustomerSurveryCommentsEditText</item>
 
         <!-- Channel Widget Styles -->
+        <item name="hotlineChannelListStyle">@style/Widget.Hotline.ChannelList</item>
         <item name="hotlineChannelListItemStyle">@style/Widget.Hotline.ChannelListItem</item>
         <item name="hotlineChannelAltIconStyle">@style/Widget.Hotline.ChannelAltIcon</item>
 
@@ -72,6 +74,7 @@
         <item name="hotlineChannelListEmptyWarningTextAppearance">@style/TextAppearance.Hotline.ChannelListEmptyText</item>
 
         <!-- FAQ Category Widget Styles -->
+        <item name="hotlineCategoryListStyle">@style/Widget.Hotline.CategoryList</item>
         <item name="hotlineCategoryListItemStyle">@style/Widget.Hotline.CategoryListItem</item>
         <item name="hotlineCategoryAltIconStyle">@style/Widget.Hotline.CategoryAltIcon</item>
 
@@ -134,6 +137,7 @@
         <item name="hotlineMessageDeepLinkStyle">@style/Widget.Hotline.MessageDeepLinkButton</item>
         <item name="hotlineMessageReplyEditTextViewStyle">@style/Widget.Hotline.MessageReplyEditText</item>
         <item name="hotlineConversationBannerMessageStyle">@style/Widget.Hotline.ConversationBannerMessage</item>
+        <item name="hotlineProgressBarStyle">@style/Widget.Hotline.ProgressBar</item>
 
         <!-- Message Text Styles -->
         <item name="hotlineAgentNameTextAppearance">@style/TextAppearance.Hotline.AgentName</item>
@@ -156,6 +160,7 @@
         <item name="hotlineCustomerSurveryCommentsEditTextStyle">@style/Widget.Hotline.CustomerSurveryCommentsEditText</item>
 
         <!-- Channel Widget Styles -->
+        <item name="hotlineChannelListStyle">@style/Widget.Hotline.ChannelList</item>
         <item name="hotlineChannelListItemStyle">@style/Widget.Hotline.ChannelListItem</item>
         <item name="hotlineChannelAltIconStyle">@style/Widget.Hotline.ChannelAltIcon</item>
 
@@ -167,6 +172,7 @@
         <item name="hotlineChannelListEmptyWarningTextAppearance">@style/TextAppearance.Hotline.ChannelListEmptyText</item>
 
         <!-- FAQ Category Widget Styles -->
+        <item name="hotlineCategoryListStyle">@style/Widget.Hotline.CategoryList</item>
         <item name="hotlineCategoryListItemStyle">@style/Widget.Hotline.CategoryListItem</item>
         <item name="hotlineCategoryAltIconStyle">@style/Widget.Hotline.CategoryAltIcon</item>
 
