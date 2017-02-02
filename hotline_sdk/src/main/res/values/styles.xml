@@ -210,6 +210,30 @@
         <!--<item name="android:borderlessButtonStyle">@style/BorderlessButtonStyle</item>-->
     </style>
 
+
+    <style name="Widget.Hotline.Dialog.Alert.Light" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Action button text color -->
+        <!--<item name="colorAccent">@color/holo_orange_dark</item>-->
+        <!-- Dialog background-->
+        <!--<item name="android:windowBackground">@color/holo_blue_bright</item>-->
+        <!-- Dialog action button bar style -->
+        <!--<item name="android:buttonBarStyle">@style/ButtonBarStyle</item>-->
+        <!-- Dialog action button style -->
+        <!--<item name="android:borderlessButtonStyle">@style/BorderlessButtonStyle</item>-->
+
+    </style>
+
+    <style name="Widget.Hotline.Dialog.Alert" parent="Theme.AppCompat.Dialog.Alert">
+        <!-- Action button text color -->
+        <!--<item name="colorAccent">@color/holo_orange_dark</item>-->
+        <!-- Dialog background-->
+        <!--<item name="android:windowBackground">@color/holo_blue_bright</item>-->
+        <!-- Dialog action button bar style -->
+        <!--<item name="android:buttonBarStyle">@style/ButtonBarStyle</item>-->
+        <!-- Dialog action button style -->
+        <!--<item name="android:borderlessButtonStyle">@style/BorderlessButtonStyle</item>-->
+    </style>
+
     <!--<style name="ButtonBarStyle" parent="@style/Widget.AppCompat.ButtonBar.AlertDialog" />-->
 
     <!--<style name="BorderlessButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless" />-->

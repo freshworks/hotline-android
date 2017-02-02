@@ -61,6 +61,9 @@
         <item name="hotlineCustomerSurveryRatingBarStyle">@style/Widget.Hotline.CustomerSurveryRatingBar</item>
         <item name="hotlineCustomerSurveryCommentsEditTextStyle">@style/Widget.Hotline.CustomerSurveryCommentsEditText</item>
 
+        <!--Alert Dialog Customization-->
+        <item name="hotlineAlertDialog">@style/Widget.Hotline.Dialog.Alert.Light</item>
+
         <!-- Channel Widget Styles -->
         <item name="hotlineChannelListStyle">@style/Widget.Hotline.ChannelList</item>
         <item name="hotlineChannelListItemStyle">@style/Widget.Hotline.ChannelListItem</item>
@@ -158,6 +161,9 @@
         <item name="hotlineCustomerSurveryQuestionStyle">@style/Widget.Hotline.CustomerSurveryQuestionStyle</item>
         <item name="hotlineCustomerSurveryRatingBarStyle">@style/Widget.Hotline.CustomerSurveryRatingBar</item>
         <item name="hotlineCustomerSurveryCommentsEditTextStyle">@style/Widget.Hotline.CustomerSurveryCommentsEditText</item>
+
+        <!--Alert Dialog Customization-->
+        <item name="hotlineAlertDialog">@style/Widget.Hotline.Dialog.Alert.Light</item>
 
         <!-- Channel Widget Styles -->
         <item name="hotlineChannelListStyle">@style/Widget.Hotline.ChannelList</item>

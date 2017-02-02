@@ -53,6 +53,7 @@
 	<string name="hotline_warning_multimedia_article_network_not_connected">Please connect to the internet to view the rich media content present in this FAQ</string>
 	<string name="hotline_error_no_matching_solution_articles_found">No matching FAQs found !</string>
 	<string name="hotline_error_no_matching_solution_categories_found">No matching FAQ categories found !</string>
+	<string name="hotline_error_failed_to_launch_support_section">Failed to launch support section</string>
 	<string name="hotline_menu_item_title_toggle_speaker">Toggle speakerphone</string>
 
 	<!-- Activity Title -->
@@ -72,5 +73,13 @@
 	<string name="hotline_label_chat_not_resolved_prompt">How could we have helped better?</string>
 	<string name="hotline_hint_cust_sat_user_comments_hint">Enter your comments here</string>
 	<string name="hotline_label_cust_sat_submit_btn">Submit</string>
+
+	<!--Strings for Auto start prompt displayed to users on xiaomi devices -->
+	<string name="hotline_label_xiaomi_auto_start_prompt_message">Please enable Autostart to receive notifications when the app is in the background</string>
+	<string name="hotline_label_xiaomi_auto_start_positive_btn">@android:string/ok</string>
+	<string name="hotline_label_xiaomi_auto_start_negative_btn">@android:string/cancel</string>
+
+	<!-- File Provider Authority Name of the form your_app_package_name.provider Eg: com.example.myapp.provider -->
+	<string name="hotline_file_provider_authority"></string>
 
 </resources>

@@ -23,6 +23,7 @@
     <attr name="hotlineChatBubbleRight" format="reference" />
 
     <!-- Misc -->
+    <attr name="hotlineAlertDialog" format="reference" />
     <attr name="hotlineProgressBarStyle" format="reference" />
     <attr name="hotlineVoiceVisualizer" format="reference" />
     <attr name="hotlineVoiceMessageSeekbar" format="reference" />
