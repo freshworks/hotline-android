@@ -150,7 +150,7 @@
 
     <!-- Customer Survey Dialog Customizations -->
 
-    <style name="Widget.Hotline.CustomerSurveryQuestionStyle">
+    <style name="Widget.Hotline.CustomerSurveyQuestionStyle">
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_width">match_parent</item>
@@ -164,7 +164,7 @@
         <item name="android:textSize">18sp</item>
     </style>
 
-    <style name="Widget.Hotline.CustomerSurveryCommentsEditText" parent="Widget.AppCompat.EditText">
+    <style name="Widget.Hotline.CustomerSurveyCommentsEditText" parent="Widget.AppCompat.EditText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">16dp</item>
@@ -176,7 +176,7 @@
         <item name="android:textSize">18sp</item>
     </style>
 
-    <style name="Widget.Hotline.CustomerSurveryRatingBar" parent="Widget.AppCompat.RatingBar">
+    <style name="Widget.Hotline.CustomerSurveyRatingBar" parent="Widget.AppCompat.RatingBar">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">16dp</item>
@@ -187,7 +187,7 @@
     </style>
 
 
-    <style name="Widget.Hotline.CustomerSurveryDialog.Light" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <style name="Widget.Hotline.CustomerSurveyDialog.Light" parent="Theme.AppCompat.Light.Dialog.Alert">
         <!-- Action button text color -->
         <!--<item name="colorAccent">@color/holo_orange_dark</item>-->
         <!-- Dialog background-->
@@ -199,7 +199,7 @@
 
     </style>
 
-    <style name="Widget.Hotline.CustomerSurveryDialog" parent="Theme.AppCompat.Dialog.Alert">
+    <style name="Widget.Hotline.CustomerSurveyDialog" parent="Theme.AppCompat.Dialog.Alert">
         <!-- Action button text color -->
         <!--<item name="colorAccent">@color/holo_orange_dark</item>-->
         <!-- Dialog background-->

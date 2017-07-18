@@ -94,10 +94,10 @@
     <attr name="hotlineChatResolutionNegativeButtonStyle" format="reference" />
 
     <!-- Customer Survey Dialog Customizations -->
-    <attr name="hotlineCustomerSurveryDialog" format="reference" />
-    <attr name="hotlineCustomerSurveryQuestionStyle" format="reference" />
-    <attr name="hotlineCustomerSurveryRatingBarStyle" format="reference" />
-    <attr name="hotlineCustomerSurveryCommentsEditTextStyle" format="reference" />
+    <attr name="hotlineCustomerSurveyDialog" format="reference" />
+    <attr name="hotlineCustomerSurveyQuestionStyle" format="reference" />
+    <attr name="hotlineCustomerSurveyRatingBarStyle" format="reference" />
+    <attr name="hotlineCustomerSurveyCommentsEditTextStyle" format="reference" />
 
     <!-- Misc - Conversation Detail Screen -->
     <attr name="hotlineConversationBannerMessageStyle" format="reference" />

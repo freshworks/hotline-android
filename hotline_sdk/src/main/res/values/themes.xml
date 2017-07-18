@@ -56,10 +56,10 @@
         <item name="hotlineChatResolutionConfirmationPromptViewStyle">@style/Widget.Hotline.ChatResolutionConfirmationPromptView</item>
 
         <!-- Customer Survey Dialog Styles -->
-        <item name="hotlineCustomerSurveryDialog">@style/Widget.Hotline.CustomerSurveryDialog.Light</item>
-        <item name="hotlineCustomerSurveryQuestionStyle">@style/Widget.Hotline.CustomerSurveryQuestionStyle</item>
-        <item name="hotlineCustomerSurveryRatingBarStyle">@style/Widget.Hotline.CustomerSurveryRatingBar</item>
-        <item name="hotlineCustomerSurveryCommentsEditTextStyle">@style/Widget.Hotline.CustomerSurveryCommentsEditText</item>
+        <item name="hotlineCustomerSurveyDialog">@style/Widget.Hotline.CustomerSurveyDialog.Light</item>
+        <item name="hotlineCustomerSurveyQuestionStyle">@style/Widget.Hotline.CustomerSurveyQuestionStyle</item>
+        <item name="hotlineCustomerSurveyRatingBarStyle">@style/Widget.Hotline.CustomerSurveyRatingBar</item>
+        <item name="hotlineCustomerSurveyCommentsEditTextStyle">@style/Widget.Hotline.CustomerSurveyCommentsEditText</item>
 
         <!--Alert Dialog Customization-->
         <item name="hotlineAlertDialog">@style/Widget.Hotline.Dialog.Alert.Light</item>
@@ -157,10 +157,10 @@
         <item name="hotlineChatResolutionConfirmationPromptViewStyle">@style/Widget.Hotline.ChatResolutionConfirmationPromptView</item>
 
         <!-- Customer Survey Dialog Styles -->
-        <item name="hotlineCustomerSurveryDialog">@style/Widget.Hotline.CustomerSurveryDialog.Light</item>
-        <item name="hotlineCustomerSurveryQuestionStyle">@style/Widget.Hotline.CustomerSurveryQuestionStyle</item>
-        <item name="hotlineCustomerSurveryRatingBarStyle">@style/Widget.Hotline.CustomerSurveryRatingBar</item>
-        <item name="hotlineCustomerSurveryCommentsEditTextStyle">@style/Widget.Hotline.CustomerSurveryCommentsEditText</item>
+        <item name="hotlineCustomerSurveyDialog">@style/Widget.Hotline.CustomerSurveyDialog.Light</item>
+        <item name="hotlineCustomerSurveyQuestionStyle">@style/Widget.Hotline.CustomerSurveyQuestionStyle</item>
+        <item name="hotlineCustomerSurveyRatingBarStyle">@style/Widget.Hotline.CustomerSurveyRatingBar</item>
+        <item name="hotlineCustomerSurveyCommentsEditTextStyle">@style/Widget.Hotline.CustomerSurveyCommentsEditText</item>
 
         <!--Alert Dialog Customization-->
         <item name="hotlineAlertDialog">@style/Widget.Hotline.Dialog.Alert.Light</item>

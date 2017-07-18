@@ -8,15 +8,15 @@
 
     <TextView
         android:id="@+id/hotline_custsurvey_question_text"
-        style="?attr/hotlineCustomerSurveryQuestionStyle" />
+        style="?attr/hotlineCustomerSurveyQuestionStyle" />
 
     <RatingBar
         android:id="@+id/hotline_custsurvey_rating_bar"
-        style="?attr/hotlineCustomerSurveryRatingBarStyle"
+        style="?attr/hotlineCustomerSurveyRatingBarStyle"
         android:numStars="5"
         android:stepSize="1" />
 
     <EditText
         android:id="@+id/hotline_custsurvey_user_comment"
-        style="?attr/hotlineCustomerSurveryCommentsEditTextStyle" />
+        style="?attr/hotlineCustomerSurveyCommentsEditTextStyle" />
 </LinearLayout>
