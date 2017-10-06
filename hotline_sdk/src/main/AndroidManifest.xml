@@ -1,6 +1,6 @@
-<manifest
-    package="com.freshdesk.hotline"
+<manifest package="com.freshdesk.hotline"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -19,7 +19,7 @@
     <!-- Keeps the processor from sleeping when a message is received. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    <uses-sdk android:minSdkVersion="10" />
+    <uses-sdk android:minSdkVersion="10" tools:overrideLibrary="android.support.v7.recyclerview" />
 
     <application>
 
