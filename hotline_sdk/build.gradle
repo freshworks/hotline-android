@@ -32,3 +32,12 @@ dependencies {
     compile "com.android.support:recyclerview-v7:$supportLibraryVersion"
     compile "com.google.code.gson:gson:$gsonVersion"
 }
+
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+      classifier = 'sources'
+}
+
+artifacts {
+    archives sourcesJar
+}
